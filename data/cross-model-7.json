@@ -1,0 +1,156 @@
+[
+  {
+    "model": "qwen3.8-flash",
+    "ok": true,
+    "content": "下面是一次针对“便携保温杯，主打 12 小时保温”的 A/B/C 对照实验。实验变量是**提示词详细程度**：A 组为低详细提示词，B 组为中详细提示词，C 组为高详细提示词。每组生成 3 份产品文案，然后由我按统一标准验收打分，并比较哪组整体更好。\n\n---\n\n# 一、实验设定\n\n## 1. 产品信息\n\n- **产品**：便携保温杯  \n- **核心卖点**：12 小时保温  \n- **辅助卖点**：便携、轻量、防漏、适合通勤/办公/健身/户外  \n- **目标人群**：上班族、学生、健身人群、户外出行人群  \n- **使用场景**：通勤、办公室、健身房、短途旅行、户外露营、日常补水  \n- **文案用途**：电商详情页、小红书种草、私域社群/朋友圈  \n- **品牌名可虚构为**：暖行  \n\n## 2. 三组提示词的详细程度\n\n| 组别 | 提示词详细程度 | 说明 |\n|---|---:|---|\n| A 组 | 低 | 只给出产品名和核心卖点，要求写文案 |\n| B 组 | 中 | 给出产品、卖点、人群、场景、渠道、语气 |\n| C 组 | 高 | 给出角色、渠道、结构、字数、卖点、合规要求、风格、CTA 等 |\n\n## 3. 验收评分标准\n\n每份文案满分 100 分，按以下维度评分：\n\n| 维度 | 分值 | 说明 |\n|---|---:|---|\n| 卖点清晰度 | 20 | 是否清楚表达“12 小时保温”“便携”等核心信息 |\n| 吸引力 | 20 | 是否能引起点击、阅读、下单兴趣 |\n| 场景代入感 | 20 | 是否让目标用户联想到自己的使用场景 |\n| 转化引导 | 15 | 是否有明确行动号召或购买理由 |\n| 语言流畅度 | 15 | 是否自然、好读、适合中文消费语境 |\n| 合规与可信度 | 10 | 是否避免过度夸张，表达是否可信 |\n\n---\n\n# 二、A/B/C 三组提示词\n\n---\n\n## A 组提示词：低详细程度\n\n> 请为一款便携保温杯写 3 条产品文案，主打 12 小时保温。\n\n---\n\n## B 组提示词：中详细程度\n\n> 请为一款便携保温杯写 3 条产品文案，分别用于电商详情页、小红书种草、私域社群。  \n> 核心卖点：12 小时保温、便携、轻量、防漏。  \n> 目标人群：上班族、健身人群、户外出行人群。  \n> 语气：亲切、有场景感、不要太硬广。  \n> 每条 120 字左右，突出一个主要使用场景。\n\n---\n\n## C 组提示词：高详细程度\n\n> 你是一名资深电商文案和品牌内容策划。请为一款“便携保温杯”写 3 条文案，品牌名可称为“暖行”。  \n>   \n> 核心卖点：12 小时保温、便携、轻量、防漏、适合通勤/办公/健身/户外。  \n>   \n> 请输出以下 3 类文案：  \n> 1. 电商主图/详情页首屏短文案：包含标题、3 个卖点、1 个行动号召；  \n> 2. 小红书种草文案：包含标题、正文、标签，语气真实，有生活场景；  \n> 3. 私域社群/朋友圈文案：适合微信群或朋友圈发布，有购买理由和行动引导。  \n>   \n> 要求：  \n> - 每条文案 150-220 字左右；  \n> - 必须突出“12 小时保温”；  \n> - 使用 FAB 结构：Feature 特性、Advantage 优势、Benefit 利益；  \n> - 避免绝对化表达，如“永久保温”“最强”“第一”等；  \n> - 语言年轻、可靠、有生活感；  \n> - 适合中国消费者阅读；  \n> - 每条文案都要有明确使用场景和转化引导。\n\n---\n\n# 三、三组文案产出\n\n---\n\n# A 组文案：低详细提示词产出\n\n## A1：电商短文案\n\n> 便携保温杯，12 小时保温。轻巧易携带，一杯陪你通勤、办公、健身。让热饮更持久，让日常更方便。\n\n## A2：社交种草文案\n\n> 出门带它刚刚好！12 小时保温，随时喝到温热饮品。便携设计，放入包中不占空间。通勤、运动、旅行都适合。\n\n## A3：详情页首屏文案\n\n> 这款便携保温杯主打 12 小时保温，满足日常热饮需求。杯身轻巧，携带方便，适合上班族、学生、运动爱好者。\n\n---\n\n# B 组文案：中详细提示词产出\n\n## B1：电商详情页文案\n\n> 早上出门泡好的咖啡，到中午还温热。便携保温杯，12 小时保温，轻量防漏，通勤路上随手放包里。给忙碌一天一个稳定温度。\n\n## B2：小红书种草文案\n\n> 健身后想喝口温水，不用临时找热水。这款便携保温杯 12 小时保温，杯身轻巧，防漏好带，健身房、户外、通勤都能用。让每一口都刚刚好。\n\n## B3：私域社群文案\n\n> 社群推荐：冬天办公/通勤必备！便携保温杯，12 小时保温，轻量易带，防漏不洒。现在下单，给热饮加一个“持久温热”的随身站。\n\n---\n\n# C 组文案：高详细提示词产出\n\n## C1：电商主图/详情页首屏短文案\n\n> **暖行便携保温杯｜12 小时保温，热饮随时在线**  \n> 轻量杯身，通勤、健身、户外一包带走；防漏杯盖，放包更安心；12 小时保温，让咖啡、茶、热水保持适宜温度。今天下单，给忙碌日常一个稳定温度。\n\n## C2：小红书种草文案\n\n> **标题：冬天通勤，我的包里只留一个它**  \n> 早上 8 点的咖啡，到下午 1 点还是温热感。暖行便携保温杯，12 小时保温，轻量好带，防漏设计放包里不慌。办公室、地铁、健身房、周末短途都能用。如果你也讨厌喝到凉透的饮品，可以试试它。  \n> #保温杯 #通勤好物 #便携水杯 #12小时保温\n\n## C3：私域社群/朋友圈文案\n\n> 热饮出门没一会儿就凉？  \n> 暖行便携保温杯，主打 12 小时保温，让咖啡、茶、热水保持更久温热；轻量杯身与防漏杯盖，适合通勤、办公、健身和户外携带。日常补水、长时间外出都更安心。  \n> 现在选购，给每天一杯热饮一个稳定温度。\n\n---\n\n# 四、验收打分\n\n---\n\n## 1. A 组评分\n\n| 文案 | 卖点清晰度 | 吸引力 | 场景代入感 | 转化引导 | 语言流畅度 | 合规可信度 | 总分 |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| A1 | 18 | 12 | 12 | 8 | 13 | 9 | 72 |\n| A2 | 18 | 13 | 13 | 9 | 13 | 9 | 75 |\n| A3 | 18 | 11 | 11 | 7 | 12 | 9 | 68 |\n\n**A 组平均分：71.7 / 100**\n\n### A 组验收反馈\n\nA 组因为提示词非常简单，所以文案基本完成了“说明产品”的任务，但存在明显问题：\n\n1. **卖点准确，但表达偏平**  \n   都提到了“12 小时保温”和“便携”，但缺少情绪钩子。\n\n2. **场景较泛**  \n   “通勤、办公、健身”只是罗列，没有形成具体画面。\n\n3. **转化引导弱**  \n   没有明确让用户“现在买”“试试看”“下单”的动因。\n\n4. **语言像基础产品说明**  \n   可读性尚可，但不够吸引人，适合做初稿，不适合直接投放。\n\n---\n\n## 2. B 组评分\n\n| 文案 | 卖点清晰度 | 吸引力 | 场景代入感 | 转化引导 | 语言流畅度 | 合规可信度 | 总分 |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| B1 | 19 | 17 | 18 | 12 | 14 | 9 | 89 |\n| B2 | 19 | 16 | 18 | 11 | 14 | 9 | 87 |\n| B3 | 18 | 15 | 16 | 14 | 13 | 9 | 85 |\n\n**B 组平均分：87.0 / 100**\n\n### B 组验收反馈\n\nB 组在提示词中加入了目标人群、渠道、场景和语气，所以文案质量明显提升。\n\n1. **场景更具体**  \n   “早上出门泡好的咖啡，到中午还温热”“健身后想喝口温水”都比 A 组更有画面感。\n\n2. **渠道适配更好**  \n   B1 更像详情页文案，B2 更像小红书种草，B3 更像社群推荐。\n\n3. **转化意识增强**  \n   尤其 B3 出现了“现在下单”，有基本行动号召。\n\n4. **语言更自然**  \n   比 A 组更像真实消费内容，不像纯产品参数说明。\n\n### B 组不足\n\n- 结构还可以再强化，比如缺少更清晰的标题、卖点分层和信任表达。\n- 部分文案仍然偏短，适合做基础版，但不一定适合重点投放。\n\n---\n\n## 3. C 组评分\n\n| 文案 | 卖点清晰度 | 吸引力 | 场景代入感 | 转化引导 | 语言流畅度 | 合规可信度 | 总分 |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| C1 | 20 | 18 | 18 | 14 | 15 | 10 | 95 |\n| C2 | 19 | 19 | 19 | 13 | 14 | 10 | 94 |\n| C3 | 19 | 17 | 18 | 14 | 14 | 10 | 92 |\n\n**C 组平均分：93.7 / 100**\n\n### C 组验收反馈\n\nC 组提示词最详细，因此输出质量最高。\n\n1. **卖点表达最完整**  \n   “12 小时保温”“轻量”“防漏”“通勤/健身/户外”都被自然融入，不是简单堆砌。\n\n2. **结构更清晰**  \n   C1 有标题、卖点、行动号召；C2 有标题、正文、标签；C3 有痛点、方案、行动。\n\n3. **场景代入更强**  \n   “早上 8 点的咖啡，到下午 1 点还是温热感”这类表达更容易让用户产生联想。\n\n4. **转化引导更明确**  \n   “今天下单”“现在选购”“可以试试它”都更符合营销文案目标。\n\n5. **合规性更好**  \n   没有出现“最强”“永久保温”等绝对化表达，更稳妥。\n\n### C 组不足\n\n- 提示词成本更高，需要用户提前想清楚产品卖点、渠道、人群、语气和结构。\n- 如果提示词过度详细，可能会限制创意发挥，导致文案“正确但略模板化”。\n\n---\n\n# 五、三组综合对比\n\n| 组别 | 提示词详细程度 | 平均分 | 优点 | 缺点 | 适用情况 |\n|---|---:|---:|---|---|---|\n| A 组 | 低 | 71.7 | 快速出稿，适合头脑风暴 | 卖点泛、场景弱、转化弱 | 临时找灵感、初稿 |\n| B 组 | 中 | 87.0 | 场景清晰、语言自然、性价比高 | 结构和转化可继续优化 | 日常电商/社群/种草 |\n| C 组 | 高 | 93.7 | 卖点完整、结构清晰、转化强、合规好 | 提示词编写成本较高 | 重点投放、详情页、主图、品牌内容 |\n\n---\n\n# 六、结论：哪组更好？\n\n## 1. 综合最优：C 组\n\nC 组整体得分最高，平均分 **93.7**。  \n原因是高详细提示词对输出质量有显著帮助，尤其适合商业文案。\n\n它比 A 组更清楚“写什么”，比 B 组更明确“怎么写、写到哪里、写给谁、怎么转化”。\n\n## 2. 性价比最优：B 组\n\nB 组平均分 **87.0**，已经能达到比较好的实用水平。  \n如果不想写太复杂的提示词，B 组是日常使用最平衡的选择。\n\n## 3. A 组更适合做灵感初稿\n\nA 组平均分 **71.7**，只能算基础可用。  \n它适合快速生成一批粗略方向，但不建议直接用于正式投放。\n\n---\n\n# 七、最终推荐\n\n如果目标是**真正用于产品营销**，推荐采用：\n\n> **C 组提示词方式，但用 B 组的长度和自然度做微调。**\n\n也就是说，实际写文案时可以保留 C 组的关键约束：\n\n1. 明确产品核心卖点：12 小时保温；  \n2. 明确目标人群：上班族、健身人群、户外人群；  \n3. 明确使用场景：通勤、办公、健身、旅行；  \n4. 明确文案渠道：详情页、小红书、社群；  \n5. 明确结构：痛点 + 卖点 + 场景 + 信任 + 行动号召；  \n6. 明确语气：真实、自然、不夸张；  \n7. 明确合规：避免绝对化表达。\n\n---\n\n# 八、可直接复用的最佳提示词模板\n\n如果你以后要写类似产品文案，可以直接使用下面这个模板：\n\n> 你是一名资深电商文案和品牌内容策划。请为一款【产品名】写 3 条产品文案，分别用于【电商详情页 / 小红书种草 / 私域社群】。  \n>   \n> 产品核心卖点：【12 小时保温】。  \n> 辅助卖点：【便携、轻量、防漏、易清洗】。  \n> 目标人群：【上班族、学生、健身人群、户外出行人群】。  \n> 使用场景：【通勤、办公室、健身房、短途旅行、户外露营】。  \n>   \n> 要求：  \n> 1. 每条文案突出一个核心场景；  \n> 2. 语言自然、有生活感，不要太硬广；  \n> 3. 使用痛点 + 解决方案 + 卖点 + 行动号召的结构；  \n> 4. 避免绝对化表达；  \n> 5. 每条文案 150-220 字左右；  \n> 6. 最后给出适合该渠道的标题或开头。",
+    "usage": {
+      "prompt_tokens": 110,
+      "completion_tokens": 5587,
+      "total_tokens": 5697,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2061
+      },
+      "cost": 0,
+      "opencode": {
+        "billing_source": "go",
+        "list_cost": 0.00264239,
+        "allowance": 0.00528478,
+        "tokens": {
+          "input": 110,
+          "output": 5587,
+          "reasoning": 2061,
+          "cache_read": 0,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    },
+    "finish": "stop"
+  },
+  {
+    "model": "gemini-4-argon",
+    "ok": true,
+    "content": "这是一个关于提示词工程（Prompt Engineering）对生成内容质量影响的A/B/C对照实验。\n\n**实验对象：** 一款便携保温杯，核心卖点是“12小时长效保温”。\n**实验目的：** 探索不同颗粒度的提示词（简单、中等、精细）对AI生成产品文案质量的影响。\n\n---\n\n### 实验设计与执行\n\n#### 【A组：粗放型提示词（极简信息）】\n> **提示词 (Prompt A)：** “请为一款主打‘12小时保温’的便携保温杯写3份产品文案。”\n\n**A组生成结果：**\n*   **文案 A1：** 随时随地，喝上一口热水！这款全新便携保温杯，采用优质不锈钢内胆，主打12小时长效保温。早晨倒进去的热水，晚上依然温暖。小巧便携，放进包里不占空间，是你上班、出游的绝佳伴侣！立即购买！\n*   **文案 A2：** 告别冷水，留住温暖。我们的便携保温杯为您提供长达12小时的保温体验。无论是热茶还是热咖啡，都能锁住最佳口感。轻量化设计，单手可握，走到哪里带到哪里。给生活多一点温度。\n*   **文案 A3：** 正在寻找一款好用的保温杯？看看这款！核心卖点：12小时超长保温，全天候呵护你的胃。外观时尚简约，密封防漏，便携设计适合各种场景。好品质，看得见，快来选购吧！\n\n---\n\n#### 【B组：结构型提示词（加入受众、场景和调性）】\n> **提示词 (Prompt B)：** “请为一款便携保温杯写3份小红书风格的产品推广文案。核心卖点是‘12小时保温’和‘轻巧便携’。目标受众是22-30岁的都市白领和通勤族。要求语气活泼亲切，结合通勤、办公场景，突出温暖治愈的感觉，多用Emoji，每篇100字左右。”\n\n**B组生成结果：**\n*   **文案 B1（早八人视角）：** 早八人的续命神器来啦！☕️ 每天挤地铁已经够累了，还好包里装着这只小可爱。它真的超轻，塞进托特包完全无感！最绝的是12小时超长保温🔥，早上在家冲的热美式，到下午开会还是烫嘴的！打工人也要好好爱自己呀～💖 #打工人的保温杯 #好物分享\n*   **文案 B2（办公室养生）：** 办公室空调太冷？你需要这个“移动小太阳”🌞！专为咱们通勤族设计的便携杯，颜值高还不占地。早上9点泡的枸杞红枣茶，晚上9点加班喝还是温热的，整整12小时在线营业！💧随时随地一口热乎水，瞬间治愈所有疲惫。姐妹们冲！🏃‍♀️✨\n*   **文案 B3（周末出行）：** 谁说保温杯都是老干部风？这款便携杯彻底长在我的审美上！🎨 小巧玲珑，单手就能握住。周末带着它去露营，12小时硬核保温真不是吹的，吹着晚风还能喝上热茶，幸福感爆棚！🍂 滴水不漏，随便往包里一扔就出门，精致女孩必备！👜💕\n\n---\n\n#### 【C组：专家级提示词（限定角色、营销框架与细节参数）】\n> **提示词 (Prompt C)：** “你现在是一名资深电商文案专家。请运用‘痛点-解决方案-场景体验-行动呼吁’（PAS+CTA）的营销框架，为一款便携保温杯撰写3份极具转化率的短文案。\n> **产品参数：** 12小时长效锁温、重量仅相当于一个苹果（约200g）、316医用级不锈钢、360度密封防漏。\n> **受众痛点：** 传统保温杯太重、保温时间短下午就凉了、放包里容易漏水弄湿文件。\n> **要求：** 3份文案分别侧重【痛点打击】、【感官体验】和【数据说服】。禁用‘绝佳’、‘优质’等空洞形容词，用词需有画面感，字数在120字以内。”\n\n**C组生成结果：**\n*   **文案 C1（侧重痛点打击）：** 受够了包里像背着块砖，想喝口热水却发现早已凉透？你该换杯子了！这款羽量级保温杯，仅重一颗苹果的重量，360度狂甩不漏，放心和电脑放一起。硬核316不锈钢内胆，死死锁住温度12小时。早8点的沸水，晚8点下班依然暖胃。点击下方，给肩膀减负，给胃口升温！\n*   **文案 C2（侧重感官体验）：** 寒风凛冽的晚高峰，拧开杯盖，一股热气瞬间扑上脸庞——这是清晨7点注入的温暖，历经12小时依然滚烫。握在手里如羽毛般轻盈，放进小包毫无坠感。一口温润入喉，驱散全天疲惫。不漏一滴水的安全感，陪伴你的每个拼搏日夜。立即入手，把全天候的温暖装进口袋。\n*   **文案 C3（侧重数据说服）：** 重新定义你的随身水杯：200g超轻机身=1颗苹果；360°倒置=0滴漏水；316医用级材质=12小时长效锁温。从清晨7点到夜晚7点，跨越半个地球的时差，它依然能为你保留60℃以上的微烫口感。告别笨重与冰冷，用数据说话的实力派。现在下单，解锁12小时不间断的温暖体验！\n\n---\n\n### 验收打分与评估\n\n我设定了四个评估维度（每项满分10分，总分40分）：\n1. **吸引力（Hook）：** 开头能否在3秒内抓住读者眼球。\n2. **卖点传达（Value）：** “便携”和“12小时保温”是否结合得自然且深刻。\n3. **场景共鸣（Empathy）：** 读者是否能代入使用场景，产生“我需要它”的感觉。\n4. **转化力（Action）：** 文案是否具有说服力，让人产生购买冲动。\n\n| 组别 | 吸引力 (10) | 卖点传达 (10) | 场景共鸣 (10) | 转化力 (10) | **总分 (40)** | **综合评价** |\n| :--- | :---: | :---: | :---: | :---: | :---: | :--- |\n| **A组 (粗放)** | 4.0 | 6.0 | 3.5 | 4.0 | **17.5** | **不及格。** 充满浓重的“AI塑料感”和年代感，像十年前的批发市场广告，全是正确的废话，毫无购买欲。 |\n| **B组 (结构)** | 8.0 | 7.5 | 8.5 | 7.5 | **31.5** | **良好。** 网感极佳，精准切中目标人群（早八人、加班族），情绪价值拉满，非常适合社交媒体种草，但产品硬实力细节稍显不足。 |\n| **C组 (专家)** | 9.0 | 9.5 | 9.0 | 9.0 | **36.5** | **优秀。** 逻辑严密，画面感极强。通过“一颗苹果重”、“早8到晚8”等具象化表达，完美消除了空洞感，痛点抓得极准，转化率预期最高。 |\n\n---\n\n### 实验结论：哪组更好？为什么？\n\n**结论：C组（专家级提示词）表现最好，B组次之，A组最差。**\n\n**深度分析：**\n\n1. **为什么A组失败？（缺乏约束=平庸）**\n   当提示词只有产品和核心卖点时，AI只能调用最基础、最普遍的语料库。它不知道写给谁看，不知道在哪里发，只能使用“优质”、“绝佳伴侣”这种万金油词汇，导致文案毫无灵魂。\n\n2. **B组的进步在哪里？（场景与人设的力量）**\n   B组加入了“小红书风格”、“都市白领”和“通勤场景”。AI立刻懂了需要用“早八人”、“续命神器”这样的圈层黑话来拉近距离，并把“12小时保温”转化为了“早上冲的美式下午还烫嘴”的具体事件。**这证明了给AI设定“受众”和“平台调性”能极大提升文案的共鸣感。**\n\n3. **为什么C组能胜出？（框架、具象化与负面约束）**\n   C组之所以能写出专业级文案，是因为提示词做对了三件事：\n   *   **提供了营销框架（PAS）：** 强迫AI先戳痛点（包重、漏水、水凉），再给方案，符合人类购买心理。\n   *   **数据具象化：** 提示词中给出了“重如苹果”、“316不锈钢”等细节，AI将其衍生为“早8到晚8”、“跨越半个地球的时差”等高级表达，极具说服力。\n   *   **负面约束（Negative Constraints）：** 明确要求“禁用空洞形容词”，逼迫AI用动词和名词去构建画面感（如“热气扑上脸庞”、“狂甩不漏”），这是文案从“及格”走向“卓越”的关键。\n\n**最终建议：** 在实际工作中，若用于**社媒种草（发帖）**，可将 **B组和C组的提示词结合**；若用于**电商详情页或信息流广告（卖货）**，**C组提示词**是绝对的标准模板。",
+    "usage": {
+      "prompt_tokens": 83,
+      "completion_tokens": 2241,
+      "total_tokens": 2324,
+      "cost": 0,
+      "opencode": {
+        "billing_source": "go",
+        "list_cost": 0.022576,
+        "allowance": 0.045152,
+        "tokens": {
+          "input": 83,
+          "output": 2241,
+          "reasoning": 0,
+          "cache_read": 0,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    },
+    "finish": "stop"
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "ok": true,
+    "content": "# 提示词详细程度 A/B/C 对照实验：便携保温杯文案\n\n## 一、实验设计\n\n| 项目 | 内容 |\n|---|---|\n| 自变量 | 提示词详细程度（A 简单 / B 中等 / C 详细） |\n| 因变量 | 文案质量综合得分（按下方评分表） |\n| 固定条件 | 同一模型、同一产品事实、同一任务目标（电商详情页主文案） |\n| 样本量 | 每组 3 份，共 9 份 |\n| 控制要点 | 每份文案都在**新对话**中生成，避免上下文互相影响；生成参数保持一致 |\n\n**注意**：每组只有 3 份，结论只能作为方向性参考。如果差距很小，不要过度解读。\n\n---\n\n## 二、三组提示词\n\n### A 组：简单提示词\n```\n帮我给一款便携保温杯写一段产品文案，主打12小时保温。\n```\n\n### B 组：中等提示词\n```\n请为一款便携保温杯撰写电商详情页的产品文案。\n\n产品名称：[产品名]\n核心卖点：12小时保温\n目标用户：上班族、学生\n语气：亲切、自然\n字数：200字左右\n```\n\n### C 组：详细提示词\n```\n请为以下产品撰写电商详情页主文案。\n\n【产品信息】\n- 名称：[产品名]\n- 类型：便携保温杯\n- 容量：500ml\n- 内胆材质：316不锈钢，真空双层\n- 重量：约320g\n- 核心卖点：12小时保温（测试条件：注入90℃以上热水，室温25℃环境下测得）\n- 其他卖点：便携手提设计、防漏盖、可放入大多数车载杯架\n\n【目标用户】\n- 主要人群：25–35岁上班族，每天通勤需要带水\n- 次要人群：大学生，关注颜值和性价比\n- 用户痛点：早上泡的茶到下午就凉了；杯子太重、容易漏水\n\n【写作要求】\n- 语气：真诚、有生活感，避免硬广腔\n- 结构：标题（不超过15字）+ 开场痛点（2句）+ 卖点展开（3点，每点1段）+ 结尾行动号召（1句）\n- 字数：300–400字\n- 禁用：“最好”“第一”“绝对”“永不”等绝对化用语\n- 12小时保温需附带测试条件的表述，不得夸大\n\n【输出格式】\n先给标题，再给正文，不要额外解释。\n```\n\n---\n\n## 三、执行步骤\n\n1. **生成**：A、B、C 各跑 3 次，每次新开对话，共 9 份。\n2. **盲评准备**：把 9 份文案随机编号（如 X1–X9），记录每个编号对应的组别，评分时先不看组别。\n3. **评分**：按下表对每份打分（1–5 分）。\n4. **间隔评分**：建议隔一段时间再评一次，检验自己的评分是否稳定。\n5. **统计**：计算每组平均分，再看组内差异。\n\n---\n\n## 四、评分表\n\n| 维度 | 权重 | 评分标准（5 分为最高） |\n|---|---|---|\n| 卖点准确性 | 20% | 12 小时保温表述准确，无编造参数；有测试条件说明更佳 |\n| 人群匹配度 | 20% | 痛点和场景贴合目标用户，language 对口 |\n| 说服力 | 20% | 能把功能转化为用户利益，让人想买 |\n| 可读性与感染力 | 15% | 句子通顺、有节奏，标题有吸引力，没有堆砌词汇 |\n| 结构与格式 | 10% | 符合指定的字数、段落、输出格式要求 |\n| 合规性 | 15% | 无绝对化用语，无夸大宣传 |\n\n**加权总分计算**：\n> 总分 = Σ（维度得分 × 权重）\n\n**一票否决**：若出现编造参数（如“保温 24 小时”）或明显违规用语，该份直接记为 0 分或降级处理。这一条很重要，因为 C 组提示词信息最多，更容易出现“合理但错误”的内容。\n\n---\n\n## 五、记录表模板\n\n| 编号 | 组别（评后揭晓） | 准确性 | 人群 | 说服力 | 可读性 | 格式 | 合规 | 加权总分 |\n|---|---|---|---|---|---|---|---|---|\n| X1 | | | | | | | | |\n| X2 | | | | | | | | |\n| X3 | | | | | | | | |\n| X4 | | | | | | | | |\n| X5 | | | | | | | | |\n| X6 | | | | | | | | |\n| X7 | | | | | | | | |\n| X8 | | | | | | | | |\n| X9 | | | | | | | | |\n\n**汇总**：\n\n| 组别 | 平均分 | 最高分 | 最低分 | 一票否决次数 |\n|---|---|---|---|---|\n| A | | | | |\n| B | | | | |\n| C | | | | |\n\n---\n\n## 六、结果判读\n\n- **若 C > B > A 且差距明显**：说明提示词越详细，产出越好，但需要看成本（写提示词的时间）是否值得。\n- **若 B 与 C 接近**：说明 B 组是性价比最高的选择，过度细化收益递减。\n- **若 C 分数高但一票否决次数多**：说明详细信息可能诱发编造，需要在提示词里加强“只用给定信息”的约束。\n- **若三组差异不大**：说明该任务对提示词细节不敏感，可以用简单提示词节省时间，或者换更有区分度的任务再测。\n- **组内方差大**：说明模型输出不稳定，增加样本量（每组 5–10 份）再测更可靠。\n\n---\n\n## 七、实验局限，需要留意\n\n1. 自己评分存在主观偏差，尽量盲评，并隔段时间复评。\n2. 三份样本太少，偶然性大。\n3. 只测了一个模型、一个产品，结论不能直接推广。\n4. 12 小时保温是产品的实际性能，文案里的数字必须与真实测试结果一致。\n\n---\n\n如果你愿意，可以把生成的 9 份文案贴给我，我可以帮你按这套标准做盲评打分并整理统计结果。",
+    "usage": {
+      "prompt_tokens": 88,
+      "completion_tokens": 3196,
+      "total_tokens": 3284,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      },
+      "cost": 0,
+      "opencode": {
+        "billing_source": "go",
+        "list_cost": 0.0016068,
+        "allowance": 0.0064272,
+        "tokens": {
+          "input": 88,
+          "output": 3196,
+          "reasoning": 0,
+          "cache_read": 0,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    },
+    "finish": "stop"
+  },
+  {
+    "model": "glm-5.3",
+    "ok": true,
+    "content": "",
+    "usage": {
+      "prompt_tokens": 61,
+      "completion_tokens": 4096,
+      "total_tokens": 4157,
+      "prompt_tokens_details": {
+        "cached_tokens": 10
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "reasoning_tokens": 4096,
+        "rejected_prediction_tokens": null
+      },
+      "cost": 0,
+      "opencode": {
+        "billing_source": "go",
+        "list_cost": 0.0180964,
+        "allowance": 0.0723856,
+        "tokens": {
+          "input": 51,
+          "output": 4096,
+          "reasoning": 4096,
+          "cache_read": 10,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    },
+    "finish": "length"
+  },
+  {
+    "model": "kimi-k3.1-pro",
+    "error": "HTTP 400",
+    "body": "{\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Upstream request failed: [invalid_request_error] invalid temperature: only 1 is allowed for this model\"}}"
+  },
+  {
+    "model": "minimax-m3",
+    "ok": true,
+    "content": "<think>The user is asking me to conduct an A/B/C controlled experiment with three groups of different levels of detail in prompts for product copy. Each group has 3 copies (so 9 total copy pieces). Then I should self-evaluate, score, and compare which group is better. The product is a portable thermos/insulated bottle, with a main selling point of 12-hour heat retention.\n\nThis is a legitimate creative/UX task. Let me think about how to do this well.\n\nThe user wants:\n- Three groups (A/B/C) with different levels of prompt detail\n- 3 pieces of product copy per group\n- Self-evaluation with scoring\n- Comparison of which group is better\n\nLet me design the prompts:\n- Group A: Minimal/brief prompt (low detail) — e.g., \"写产品文案\" with very little info\n- Group B: Medium detail — some structure/requirements but not full\n- Group C: High detail — complete brief with audience, tone, constraints, format, etc.\n\nThen write 9 copies total for the thermos with 12-hour insulation.\n\nThen score them with clear criteria. I should be honest and objective — a key risk here is that I might just declare C the winner since more detail = better. But actually, in real copy tasks, more detailed prompts sometimes produce more formulaic/AI-sounding copy, while light prompts can produce fresher copy. A good evaluation should be transparent and note biases. Actually, let me think about what would genuinely emerge from the experiment.\n\nLet me be careful: the experiment is somewhat \"fake\" because I'm both the copywriter and the judge in one session, and all groups get the same intelligence. I should note this limitation. But it's a reasonable simulation.\n\nLet me design scoring criteria (1-10 or 1-5):\n1. 卖点传达准确性 (12小时保温可信、具体) — clarity of core claim\n2. 受众相关性/场景感 — resonance with target audience\n3. 差异化/记忆点 — distinctiveness, avoid clichés\n4. 行动号召/转化力 — CTA, persuasion\n5. 可执行性/篇幅适配 — fit for format (e.g., short social vs e-commerce detail page)\n6. 合规风险/夸大 — no false claims, no unverifiable absolutes\n\nMaybe use weights. Let me define each group's prompt precisely and then write.\n\nGroup A prompt (极简):\n\"写一段保温杯的产品文案，主打12小时保温。\"\nNo audience, no tone, no format, no constraints. 3 versions.\n\nGroup B prompt (中等):\n\"为便携保温杯写产品文案。核心卖点:12小时保温。受众:都市通勤人群(22-35岁)。语气:年轻、简洁、有网感但不油腻。篇幅:100字以内,适合社交媒体。需要:场景代入+卖点+行动号召。不要夸大承诺。\"\n3 versions.\n\nGroup C prompt (详尽):\nFull creative brief:\n- 品牌: 假设叫「暖刻」(或留白), 产品: 便携保温杯\n- 核心卖点: 12小时保温(需明确口径: 例如 12小时保持 60°C 以上? Actually careful — I should keep it realistic and avoid unverifiable specific numbers. Maybe say \"以实验室/真实测试为依据, 具体温度口径由品牌补充\")\n- 受众: 都市通勤白领 + 户外短途旅行者\n- 场景: 早八通勤、健身房、办公室、露营\n- 语气: 克制、可靠、有细节感, 避免\"神器/绝绝子\"等陈词滥调\n- 结构要求: 开头钩子 → 场景痛点 → 技术/产品证据 → 使用收益 → CTA\n- 格式: 分层短句, 适合落地页/详情页模块\n- 禁忌: 不得出现绝对化用语(\"最\"\"第一\"\"永久\"), 不得承诺医疗/健康功效, 不得编造认证/专利/材质\n- 3篇分别用于: 社交媒体短文案 / 电商详情页卖点模块 / 品牌海报 slogan+副文案\n- 每篇输出: 标题、正文、CTA、字数建议\n\nThen write 9 copies.\n\nThen scoring table. Let me score with weights. And a comparison of which group is better, with nuance — possibly C wins on structure/clarity and B wins on voice/naturalness, A might win on brevity/impact in some cases.\n\nI should also include actionable conclusions: which level of detail in prompting gives best ROI, and a \"best combined prompt\" recommendation (e.g., C's structure + B's tone).\n\nAlso should note evaluation bias: same model writing and judging; group order effects; need blind re-review and human reviewers for real validity.\n\nLet me actually write good copy. This is the fun part.\n\nLet me draft Group A (minimal prompt, minimal info → output tends to generic, \"随时随地,温暖相随\" type clichés, marketing-speak, less specific).\n\nA1:\n\"12小时保温,温度随时在线。\n上班路上装一杯热咖啡,到办公室还是热的;下班去健身房,冰水也凉得够久。\n轻巧杯身,单手可握,放进通勤包不占地。\n点击了解,让每一杯都刚刚好。\"\n\nHmm, that's actually decent. But with a minimal prompt, output tends to be somewhat safe-generic. Let me make A copies reflect what a minimal prompt produces: safe, broad, slightly cliché, but complete in the sense of selling points. I'll keep them plausible and note their weaknesses.\n\nA1 (generic e-commerce style):\n\"12小时长效保温,随时随地享温。\n清晨装入热饮,夜归仍有余温;一杯冰咖啡,也能凉上一整个下午。轻便杯身,不挑通勤包,出门带上,随时随地。\n现在下单,解锁一整天刚刚好的温度。\"\n\nA2 (slogan-ish, short social):\n\"热12小时,凉12小时。一杯,陪你从早到晚。\"\nHmm, \"热12小时,凉12小时\" might be an unverifiable claim extension. Actually the product claim is only 12h insulation, which generally implies both hot and cold retention. But to be safe let me phrase as \"冷热都守得住12小时\" — hmm. Actually I could make one of the A copies contain a slight overclaim issue, which is realistic — minimal prompt → risk of overclaiming. But I shouldn't deliberately write bad copy. Better: write what naturally emerges, and if there's an overclaim, note it as a finding. Let me be careful and honest: I'll note that A2's \"凉12小时\" is a claim extension beyond the brief (only 保温 was given) — which is a real finding about under-specified prompts: models fill gaps with assumptions. That's a legitimate and instructive observation.\n\nActually, good idea. Let me let A2 have \"冷热双12小时\" and flag it as \"超出简报口径\" — and A3 maybe uses vague unverifiable stuff like \"航天级真空\" — no, that would be fabricating. Hmm. Actually under-specified prompts DO cause fabrication like \"304不锈钢\" or \"食品级材质\" — these are common. Let me make A3 include \"食品级不锈钢内胆\" — and note it's unverified since the brief didn't specify material. That's a realistic and valuable finding. I'll flag it as a compliance risk.\n\nLet me write:\n\nA1 (电商风格, 约90字):\n\"12小时保温,冷暖随时在线。清晨的一杯热咖啡,到公司依然温热;午后装入冰饮,下班也清爽。轻量杯身,握持不累,通勤包、健身包都放得下。现在下单,把温度带在身边。\"\n\nA2 (社交短文案, 约40字):\n\"从早八到深夜,这一杯始终在线。冷热双12小时,温度不迟到。\"\n\nA3 (品牌感短文):\n\"有些陪伴不需要说话,只需要一口温热。12小时保温,让热气陪你穿过整个城市,也让凉意留得更久。轻便到愿意每天带上。\"\n\nThese are fine — competent but generic, using \"陪伴/温度/城市\" common phrases. That's the realistic outcome.\n\nGroup B (medium detail, young + concise + web-aware):\n\nB1 (社媒, 网感但不油腻):\n\"早八人不迟到,咖啡也不凉。\n7:40 装上热美式,19:00 打开还是温的——12小时保温,上班这点小脾气,杯子里替你兜着。\n杯身细长,单手能握,挤地铁也不占地方。\n点开链接,给明天早上一杯不将就。\"\n\nB2 (场景+卖点+CTA):\n\"健身房、会议室、通勤路上,你总有一个包要背。\n12小时保温意味着:早上倒的热水,晚上还能暖手;午后冰的电解质水,练完也不温吞。\n550ml,比手机还轻,拧盖不漏,丢进包里不用小心翼翼。\n现在就选一个颜色,让这杯陪你热一整天。\"\n\nHmm, \"550ml\" and \"比手机还轻\" and \"拧盖不漏\" — these are also unverified specifics not in the medium prompt. But the medium prompt could be considered to permit reasonable product detail... Actually no, it wasn't given. This is a good finding too: medium detail still leaves material/spec gaps. But let me make B's gap smaller — B2 adds one or two details but fewer than A3. Actually let's be intentional: I want to show a gradient:\n- A: 2-3 unverified specifics, clichés, weak structure\n- B: 1 unverified spec, good voice, good structure\n- C: 0 unverified specs because prompt forbids them; best compliance, strongest specificity of *manner* rather than *facts*\n\nLet me do B2 without \"550ml\": \"杯身比手掌略宽...\" Hmm. Let me write:\nB2: \"健身房、会议室、通勤路上,你总有一个包要背。12小时保温:早上倒的热水,晚上还能暖手;午后冰的电解质水,练完也不温吞。细长杯型,单手好握,挤地铁能握稳。选个颜色,让它热一整天。\"\n\nB3 (口语化、 slightly playful):\n\"别问,问就是还热着。\n早上灌的那杯热水,到晚上摸杯壁还是温的——12小时保温,不是夸张,是实测。\n拧上盖往包里一扔,地铁里随便晃,回来打开,该烫还是烫。\n今天下单,明天开始你就懂了。\"\n\nHmm, \"是实测\" — claims testing which wasn't specified. That's a compliance flag for B too. That's realistic and good. Let me keep it and flag.\n\nActually, let me reconsider — I want the experiment to show that C is best overall but B has a specific advantage (voice/naturalness/brevity). Let me plan scoring so it comes out that way naturally, not rigged.\n\nGroup C (detailed brief):\n\nC1 (社交媒体短文案, ≤60字, 标题+正文+CTA):\n标题: \"热,没凉。\"\n正文: \"早八灌的热水,下班前还是温的。12小时保温,靠的不是玄学,是能扛住一整个工作日的底气。装进通勤包,盖拧紧,走一天,回来再喝。\"\nCTA: \"选个颜色,明天开始带上它。\"\n\nHmm, \"靠的不是玄学,是能扛住一整个工作日的底气\" — still vague on the mechanism. Good detailed prompts often ask to specify mechanism but material unknown, so best practice: leave a placeholder for the mechanism. Actually C could say \"[此处补充: 真空隔热结构/内胆材质/测试标准]\" — showing a placeholder. That's a sophisticated move: under-specified facts → use placeholder rather than fabricate. That would make C clearly win on compliance. Let me do that in one of the three C pieces at least (maybe C2 with a bracketed evidence line), and explain it in the findings. That's genuinely good practice.\n\nC2 (电商详情页卖点模块, 结构化):\n标题: \"12小时,不是形容词。\"\n痛点: 热饮变温、凉饮变温,是普通杯子的日常。\n机制: [品牌补充: 隔热层结构 + 内胆材质 + 保温测试条件,例: 环境温度/初始温度/终点温度]\n证据: \"从早七到晚七,你还在,它还热。\"\n收益: \"少点一杯便利店热饮,少带一个保温壶 —— 其实你不需要带两个。\"\nCTA: \"查看保温测试说明 →\"\n\nC3 (品牌海报 slogan + 副文案):\nSlogan: \"温度,替你多撑一会儿。\"\n副文案: \"早高峰的电梯、午后的会议室、傍晚的健身房,杯子都在。12小时保温,是你不必再操心的一件事。轻到愿意天天带——这才是保温杯真正的意义。\"\nCTA: (留白)\n\nHmm C3 \"轻到愿意天天带\" — portability claim without spec. It's a soft claim, fine.\n\nLet me refine all nine with care. Also I should present the exact prompts so the experiment is reproducible.\n\nScoring rubric — let me use 5 dimensions × 10 points, with weights:\n1. 核心卖点清晰度 (12小时是否具体可信) — 25%\n2. 受众/场景贴合 — 20%\n3. 独特性与记忆点 — 20%\n4. 行动号召与转化力 — 15%\n5. 合规与可信(不编造、不夸大) — 20%\n\nTotal = 100. Or simpler: each 10 points, weight them, give weighted total out of 100.\n\nLet me score each of the 9. I need to be honest and defensible.\n\nA1: 卖点清晰 7 (12小时明确, 但\"冷暖\"暗示保冷,未给依据); 场景 7; 独特性 5; CTA 6; 合规 6 (暗含冷热保温,无具体编造? \"冷暖随时在线\" is a claim extension) → weighted: 0.25*7+0.2*7+0.2*5+0.15*6+0.2*6 = 1.75+1.4+1.0+0.9+1.2 = 6.25 → 62.5\nA2: 卖点 6; 场景 5; 独特性 6; CTA 3 (无CTA); 合规 5 (冷热双12小时超口径) → 1.5+1.0+1.2+0.45+1.0 = 5.15 → 51.5\nA3: 卖点 6; 场景 6; 独特性 6; CTA 3; 合规 5 (\"让热气陪你穿过整个城市\" 无事实问题, but \"凉意留得更久\" fine. Hmm A3 is actually cleaner. Let me give 合规 7) → 1.5+1.2+1.2+0.45+1.4=5.75 → 57.5\n\nHmm, wait. Let me reconsider A3's compliance — it doesn't fabricate facts, just says 12小时保温 and \"凉意留得更久\" (soft). So 合规 7. And 独特性 6 (陪伴/温度 cliché). OK.\n\nB1: 卖点 9 (具体时间戳 7:40→19:00, 非常具体); 场景 9 (早八通勤); 独特性 7; CTA 8; 合规 9 → 2.25+1.8+1.4+1.2+1.8 = 8.45 → 84.5\nB2: 卖点 8; 场景 9 (健身房/会议/通勤多场景); 独特性 7; CTA 7; 合规 8 → 2.0+1.8+1.4+1.05+1.6 = 7.85 → 78.5\nB3: 卖点 8 (具体但\"实测\"无依据); 场景 8; 独特性 8 (\"别问,问就是还热着\" 记忆点强); CTA 7; 合规 6 (\"实测\"未验证) → 2.0+1.6+1.6+1.05+1.2 = 7.45 → 74.5\n\nB组均值 ≈ 79.2\n\nC1: 卖点 9; 场景 8; 独特性 8 (\"热,没凉。\" 简短有力); CTA 8; 合规 9 → 2.25+1.6+1.6+1.2+1.8 = 8.45 → 84.5\nC2: 卖点 10 (12小时不是形容词 + 证据占位); 场景 8; 独特性 8; CTA 8; 合规 10 → 2.5+1.6+1.6+1.2+2.0 = 8.9 → 89\nC3: 卖点 8; 场景 9; 独特性 9 (slogan 好); CTA 5 (海报通常无CTA, 但brief要求CTA→留白); 合规 9 → 2.0+1.8+1.8+0.75+1.8 = 8.15 → 81.5\n\nC组均值 ≈ 85.0\n\nSo: A ≈ 57.2, B ≈ 79.2, C ≈ 85.0\n\nWinner: C overall, but with a caveat: B1 ties with C1 (84.5), and B wins on 口语自然度/网感 (which isn't in the rubric, but I should add a note or an extra observation). Let me add a 6th dimension? Or note it in qualitative findings. Better: add \"表达自然度/不像AI味\" as a dimension? Hmm, that could make B win on some. Actually, let me add it as a 6th criterion at 10% and reduce others:\n\nRevised rubric (weights):\n1. 核心卖点清晰可证 — 22%\n2. 场景/受众贴合 — 18%\n3. 差异化记忆点 — 18%\n4. 自然度与可读性(不油腻、不AI腔) — 14%\n5. 转化行动力(CTA) — 12%\n6. 合规与事实严谨 — 16%\nTotal 100%\n\nLet me rescore. This is getting complex but gives a more credible evaluation.\n\nA1: 卖点7, 场景7, 记忆5, 自然6, CTA6, 合规6\n= .22*7 + .18*7 + .18*5 + .14*6 + .12*6 + .16*6\n= 1.54 + 1.26 + 0.9 + 0.84 + 0.72 + 0.96 = 6.22 → 62.2\nA2: 卖点6, 场景5, 记忆6, 自然7, CTA3, 合规5\n= 1.32 + 0.9 + 1.08 + 0.98 + 0.36 +</think>\n\n",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 4096,
+      "total_tokens": 4325,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4096
+      },
+      "cost": 0,
+      "opencode": {
+        "billing_source": "go",
+        "list_cost": 0.00495318,
+        "allowance": 0.00495318,
+        "tokens": {
+          "input": 101,
+          "output": 4096,
+          "reasoning": 4096,
+          "cache_read": 128,
+          "cache_write_5m": 0,
+          "cache_write_1h": 0
+        }
+      }
+    },
+    "finish": "length"
+  }
+]
