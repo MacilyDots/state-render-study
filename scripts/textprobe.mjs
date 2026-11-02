@@ -1,8 +1,11 @@
 // 文本版元任务渲染实验：把 ABC 对照实验搬到纯文本任务
-import { chatOnce } from 'file:///X:/work/_ctx-degrade/harness/deepseek-client.mjs';
+// 依赖外部 DeepSeek 客户端（仓库不包含）。
+// 复现时设置 HARNESS_DIR 指向 deepseek-client.mjs 所在目录，或修改下面的默认路径。
+const HARNESS_DIR = process.env.HARNESS_DIR || resolve(ROOT, '..', '_ctx-degrade', 'harness');
+const { chatOnce } = await import(pathToFileURL(resolve(HARNESS_DIR, 'deepseek-client.mjs')).href);
 import { writeFileSync, mkdirSync } from 'node:fs';
 
-const OUT = 'X:/work/_state-probe';
+const OUT = resolve(ROOT, 'tmp', '_state-probe');  // 临时输出，运行前需 mkdir -p
 mkdirSync(OUT, { recursive: true });
 
 const SYSTEM = '你是一个执行任务的 AI 助手。请按用户要求完成。';

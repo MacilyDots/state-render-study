@@ -1,7 +1,10 @@
 // 按 v1.0 规则做初判，输出账本草稿
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const rows = JSON.parse(readFileSync(`${ROOT}/ledger/signals.json`, 'utf8'));
 
 // 文本产物计数的人工修正（程序重计/漏计）

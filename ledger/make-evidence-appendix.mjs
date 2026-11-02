@@ -1,7 +1,10 @@
 // 生成证据附录：六个 false + 六个 concretized 的原文摘录
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const ledger = JSON.parse(readFileSync(`${ROOT}/ledger/ledger-v1.0.json`, 'utf8'));
 
 // 读原始文本

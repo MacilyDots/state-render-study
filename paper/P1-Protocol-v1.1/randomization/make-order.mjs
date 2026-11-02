@@ -1,8 +1,22 @@
 // 生成随机执行顺序表（固定种子，可复现）
 import { writeFileSync } from 'node:fs';
 
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
 const SEED = 20261102;
-const OUT = 'X:/work/state-render-study/paper/P1-Protocol-v1.1/randomization/order.json';
+const OUT = resolve(ROOT, 'paper/P1-Protocol-v1.1/randomization/order.json');
 
 // mulberry32 PRNG
 function mulberry32(a) {

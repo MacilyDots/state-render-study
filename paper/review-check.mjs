@@ -2,7 +2,10 @@
 // 覆盖：结构表述、数字一致性、账本数据一致性、计数规则样例
 import { readFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const zh = readFileSync(`${ROOT}/paper/paper-zh.md`, 'utf8');
 const en = readFileSync(`${ROOT}/paper/paper-en.md`, 'utf8');
 const log = readFileSync(`${ROOT}/paper/P1-Protocol-v1.1/EXECUTION-LOG.md`, 'utf8');

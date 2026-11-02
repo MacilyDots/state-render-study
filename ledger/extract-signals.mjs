@@ -1,7 +1,10 @@
 // 标注辅助：从每条样本提取 AD/RAR/ECV 判定所需的信号
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const OUT = `${ROOT}/ledger`;
 mkdirSync(OUT, { recursive: true });
 

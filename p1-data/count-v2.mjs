@@ -1,8 +1,22 @@
 // 文本产物计数 v2：排除评分与时长干扰，支持中文序数
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 
-const RUNS = 'X:/work/state-render-study/p1-data/runs';
-const OUT = 'X:/work/state-render-study/p1-data';
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
+const RUNS = resolve(ROOT, 'p1-data/runs');
+const OUT = resolve(ROOT, 'p1-data');
 const CN = { '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10 };
 
 function clean(t) {

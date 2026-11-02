@@ -1,7 +1,10 @@
 // 量化指标：对已有全部实验数据计算报告化率、执行率、虚假声明率
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 
 // ---------- 指标定义 ----------
 // 报告化（reportification）：输出含实验报告结构的程度

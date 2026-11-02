@@ -3,12 +3,26 @@
 // 使用独立 SMOKE 编号，不计入 75 次先导调用，不进入正式统计
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
 const CRED = '%USERPROFILE%/.dsh/.credentials.yaml';
 const KEY = readFileSync(CRED, 'utf8').match(/GOOGLE_API_KEY\s*:\s*["']?([^"'\r\n]+)["']?/)[1].trim();
 
 const MODEL = 'gemini-3.1-flash-image';
 const BASE = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`;
-const OUT = 'X:/work/state-render-study/p1-data/smoke';
+const OUT = resolve(ROOT, 'p1-data/smoke');
 mkdirSync(OUT, { recursive: true });
 
 const MSG = '生成一张照片：一只橘猫坐在窗台上。';

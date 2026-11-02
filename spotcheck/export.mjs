@@ -1,7 +1,10 @@
 // 导出人工抽验包：分层抽 7 条（35 样本的 20%）
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const OUT = `${ROOT}/spotcheck`;
 mkdirSync(OUT, { recursive: true });
 

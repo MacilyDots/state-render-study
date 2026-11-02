@@ -13,6 +13,8 @@
 
 **Privacy note**: UI screenshots and a personal image-generation dialogue were excluded from this release. All uploaded images are model-generated outputs or matplotlib figures; none contain desktop captures or personal session content.
 
+**许可**：代码（`.mjs` / `.py` / `.ps1`）采用 [MIT](LICENSE)；报告、标注手册、数据记录与图表采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)；模型生成图片为第三方模型输出，复用可能还需遵守相应模型提供方的条款。
+
 ---
 
 ## 一、研究问题

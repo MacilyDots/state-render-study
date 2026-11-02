@@ -1,7 +1,21 @@
 // P1-T 统计检验：T-B vs T-D1
 import { readFileSync } from 'node:fs';
 
-const data = JSON.parse(readFileSync('X:/work/state-render-study/p1-data/P1-T-analysis.json', 'utf8'));
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
+const data = JSON.parse(readFileSync(resolve(ROOT, 'p1-data/P1-T-analysis.json'), 'utf8'));
 
 const d1 = data.filter(x => x.id === 'T-D1').map(x => x.produced);
 const tb = data.filter(x => x.id === 'T-B').map(x => x.produced);

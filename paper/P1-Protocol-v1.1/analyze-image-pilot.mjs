@@ -1,8 +1,22 @@
 // 图像先导分析：D1/D2/D3 四层计数与交付分布
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 
-const RUNS = 'X:/work/state-render-study/p1-data/runs';
-const OUT = 'X:/work/state-render-study/p1-data';
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
+const RUNS = resolve(ROOT, 'p1-data/runs');
+const OUT = resolve(ROOT, 'p1-data');
 const files = readdirSync(RUNS).filter(f => /^P1-D[123]-\d{3}\.json$/.test(f));
 const recs = files.map(f => JSON.parse(readFileSync(`${RUNS}/${f}`, 'utf8')));
 

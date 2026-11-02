@@ -1,7 +1,10 @@
 // 量化指标 v2：修正文本产物计数与报告化判定
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 
 // 报告化的强结构特征
 const STRONG_KW = ['实验设计', '自变量', '因变量', '对照组', '控制变量', '评分标准',

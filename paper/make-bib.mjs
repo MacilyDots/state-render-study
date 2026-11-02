@@ -1,7 +1,21 @@
 // 从 arxiv-meta.json 生成 BibTeX
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const meta = JSON.parse(readFileSync('X:/work/state-render-study/paper/arxiv-meta.json', 'utf8'));
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
+const meta = JSON.parse(readFileSync(resolve(ROOT, 'paper/arxiv-meta.json'), 'utf8'));
 
 const KEYS = {
   '2609.20812': 'smyth2026overclaiming',
@@ -55,5 +69,5 @@ out.push(`@inproceedings{monitoring2026monitorability,
 }`);
 
 const bib = out.join('\n\n') + '\n';
-writeFileSync('X:/work/state-render-study/paper/references.bib', bib, 'utf8');
+writeFileSync(resolve(ROOT, 'paper/references.bib'), bib, 'utf8');
 console.log(bib);

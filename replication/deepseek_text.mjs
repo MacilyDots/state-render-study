@@ -1,8 +1,25 @@
 // 第3项：DeepSeek 复验 E5 文本分支（4 梯度 × 3 重复）
-import { chatOnce } from 'file:///X:/work/_ctx-degrade/harness/deepseek-client.mjs';
+// 依赖外部 DeepSeek 客户端（仓库不包含）。
+// 复现时设置 HARNESS_DIR 指向 deepseek-client.mjs 所在目录，或修改下面的默认路径。
+const HARNESS_DIR = process.env.HARNESS_DIR || resolve(ROOT, '..', '_ctx-degrade', 'harness');
+const { chatOnce } = await import(pathToFileURL(resolve(HARNESS_DIR, 'deepseek-client.mjs')).href);
 import { writeFileSync, mkdirSync } from 'node:fs';
 
-const OUT = 'X:/work/state-render-study/replication';
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
+const OUT = resolve(ROOT, 'replication');
 mkdirSync(OUT, { recursive: true });
 
 const SYSTEM = '你是一个执行任务的 AI 助手。请按用户要求完成。';

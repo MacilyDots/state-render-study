@@ -1,6 +1,20 @@
 // 查 arXiv 元数据，生成 BibTeX
 import { writeFileSync } from 'node:fs';
 
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
 const IDS = [
   '2609.35732',  // FTA
   '2610.19679',  // MCAIR
@@ -39,5 +53,5 @@ for (const e of entries) {
   console.log(`\n${id}\n  ${title}\n  ${authors.join(', ')}\n  ${published.slice(0, 10)}  [${cats[0] || ''}]`);
 }
 
-writeFileSync('X:/work/state-render-study/paper/arxiv-meta.json', JSON.stringify(out, null, 2), 'utf8');
+writeFileSync(resolve(ROOT, 'paper/arxiv-meta.json'), JSON.stringify(out, null, 2), 'utf8');
 console.log('\nsaved arxiv-meta.json');

@@ -1,9 +1,23 @@
 // 第2项：措辞单变量消融——逐个去掉 ABC 消息里的因子
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
+import { existsSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+function findRoot(start) {
+  let d = start;
+  while (d !== dirname(d)) {
+    if (existsSync(resolve(d, 'PROJECT-STATUS.md')) || existsSync(resolve(d, 'README.md'))) return d;
+    d = dirname(d);
+  }
+  return start;
+}
+const ROOT = findRoot(dirname(fileURLToPath(import.meta.url)));
+
+
 const CRED = '%USERPROFILE%/.dsh/.credentials.yaml';
 const KEY = readFileSync(CRED, 'utf8').match(/GOOGLE_API_KEY\s*:\s*["']?([^"'\r\n]+)["']?/)[1].trim();
-const OUT = 'X:/work/state-render-study/ablation';
+const OUT = resolve(ROOT, 'ablation');
 mkdirSync(OUT, { recursive: true });
 
 const MODEL = 'gemini-3.1-flash-image';

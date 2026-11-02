@@ -1,7 +1,10 @@
 // 最终账本：人工判定覆盖程序初判
 import { readFileSync, writeFileSync } from 'node:fs';
 
-const ROOT = 'X:/work/state-render-study';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = resolve(__dirname, '..');
 const draft = JSON.parse(readFileSync(`${ROOT}/ledger/ledger-draft.json`, 'utf8'));
 
 // 人工裁决（覆盖程序初判）

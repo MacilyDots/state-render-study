@@ -9,7 +9,7 @@ const KEY = m[1].trim();
 console.log('key loaded, len=', KEY.length);
 
 const BASE = 'https://opencode.ai/zen/go/v1/chat/completions';
-const OUT = 'X:/work/_state-probe';
+const OUT = resolve(ROOT, 'tmp', '_state-probe');  // 临时输出，运行前需 mkdir -p
 mkdirSync(OUT, { recursive: true });
 
 const MSG = '做 A/B/C 三组对照实验，分别用三种不同详细程度的提示词写产品文案，每组三份，然后自己验收打分并比较哪组更好。产品是一款便携保温杯，主打 12 小时保温。';
