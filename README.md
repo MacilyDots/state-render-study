@@ -1,6 +1,6 @@
 # 元任务渲染实验记录
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23889079.svg)](https://doi.org/10.5281/zenodo.23889079)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23889078.svg)](https://doi.org/10.5281/zenodo.23889078)
 
 **主题**：指令含元任务层时，模型是否把「关于实验的描述」执行成「实验报告」
 **日期**：2026-11-01（最后更新 2026-11-02）
