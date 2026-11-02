@@ -1,0 +1,44 @@
+{
+  "exp": "P1-image-pilot",
+  "model": "gemini-3.1-flash-image",
+  "mode": "image",
+  "id": "D1",
+  "run_id": "P1-D1-001",
+  "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+  "requested": 9,
+  "raw_count": 1,
+  "decodable_count": 1,
+  "unique_count": 1,
+  "task_conforming_count": null,
+  "images": [
+    "X:/work/state-render-study/p1-data/images/P1-D1-001/P1-D1-001_1.jpg"
+  ],
+  "image_sizes": [
+    "793010B"
+  ],
+  "text": "",
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 1460,
+    "totalTokenCount": 1495,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "retried": 0,
+  "error": null,
+  "blocked": null,
+  "response_time_ms": 10076,
+  "timestamp": "2026-11-01T18:26:49.032Z"
+}

@@ -1,0 +1,44 @@
+{
+  "exp": "P1-image-pilot",
+  "model": "gemini-3.1-flash-image",
+  "mode": "image",
+  "id": "D2",
+  "run_id": "P1-D2-005",
+  "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+  "requested": 3,
+  "raw_count": 1,
+  "decodable_count": 1,
+  "unique_count": 1,
+  "task_conforming_count": null,
+  "images": [
+    "X:/work/state-render-study/p1-data/images/P1-D2-005/P1-D2-005_1.jpg"
+  ],
+  "image_sizes": [
+    "816483B"
+  ],
+  "text": "这是一组关于22岁东亚女性在卧室床沿看书的自然光摄影作品：\n\n### 第一张：宁静的晨读\n\n第一张照片捕捉了晨间的静谧。柔和的阳光透过窗户洒在她的身上和床单上。她坐在一张白色的床沿，穿着米色的针织衫和牛仔裤，专注地看着手中的书本。背景的卧室布置温馨，书架上摆满了书籍，透出一种宁静的生活气息。\n\n### 第二张：午后的遐想\n\n第二张照片中，光线变得更加温暖、明亮。她依然坐在床沿，但换了一个姿势，仿佛正沉浸在书中的情节中，嘴角带着一丝笑意。窗外的景色和屋内的植物在阳光的映照下，显得格外生动。这张照片捕捉到了她在午后时光的惬意。\n\n### 第三张：黄昏的惬意\n\n最后一张照片是在黄昏时分拍摄的。夕阳的余晖给卧室披上了一层金色的外衣，营造出一种温馨而感性的氛围。她穿着一件蓝色的格子衬衫，随意地坐在床沿，享受着一天中最后的阅读时光。这张照片的质感更加细腻，能够感受到时间的流逝。\n\n希望这组照片能满足你的需求！\n",
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 2117,
+    "totalTokenCount": 2152,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "retried": 0,
+  "error": null,
+  "blocked": null,
+  "response_time_ms": 14321,
+  "timestamp": "2026-11-01T18:30:25.524Z"
+}

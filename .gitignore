@@ -1,8 +1,0 @@
-*.tmp
-*.log
-_sanitize*
-_find*
-_ctx.txt
-node_modules/
-.DS_Store
-Thumbs.db

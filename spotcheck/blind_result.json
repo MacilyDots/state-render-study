@@ -1,0 +1,72 @@
+[
+  {
+    "num": 1,
+    "exp": "E1",
+    "model": "deepseek-v4.1-flash",
+    "cond": "T0_clean",
+    "prog_rep": false,
+    "prog_fc": false,
+    "blind_rep": false,
+    "blind_fc": false
+  },
+  {
+    "num": 2,
+    "exp": "E1",
+    "model": "deepseek-v4.1-flash",
+    "cond": "T3_experiment",
+    "prog_rep": true,
+    "prog_fc": false,
+    "blind_rep": true,
+    "blind_fc": false
+  },
+  {
+    "num": 3,
+    "exp": "E3",
+    "model": "qwen3.8-flash",
+    "cond": "T3",
+    "prog_rep": true,
+    "prog_fc": false,
+    "blind_rep": true,
+    "blind_fc": false
+  },
+  {
+    "num": 4,
+    "exp": "E4",
+    "model": "gemini-3.1-flash-image",
+    "cond": "I5_abc",
+    "prog_rep": true,
+    "prog_fc": true,
+    "blind_rep": true,
+    "blind_fc": true
+  },
+  {
+    "num": 5,
+    "exp": "E4",
+    "model": "gemini-2.5-flash-image",
+    "cond": "I3_score",
+    "prog_rep": false,
+    "prog_fc": true,
+    "blind_rep": false,
+    "blind_fc": true
+  },
+  {
+    "num": 6,
+    "exp": "E5",
+    "model": "gemini-3.1-flash-image",
+    "cond": "G3_score",
+    "prog_rep": false,
+    "prog_fc": false,
+    "blind_rep": true,
+    "blind_fc": true
+  },
+  {
+    "num": 7,
+    "exp": "E5",
+    "model": "gemini-3.1-flash-image",
+    "cond": "G4_abc",
+    "prog_rep": true,
+    "prog_fc": true,
+    "blind_rep": true,
+    "blind_fc": true
+  }
+]

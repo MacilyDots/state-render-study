@@ -1,0 +1,49 @@
+{
+  "timeout": {
+    "definition": "请求超过冻结阈值未返回",
+    "retry": false,
+    "counts_as": 0,
+    "in_itt_denominator": true,
+    "note": "未交付到客户端的图片按实际可观察交付记 0，标记后端执行状态未知"
+  },
+  "server_error": {
+    "definition": "HTTP 5xx，重试 2 次后仍失败",
+    "retry": "max 2, interval 5s",
+    "counts_as": 0,
+    "in_itt_denominator": true
+  },
+  "rate_limited": {
+    "definition": "HTTP 429，重试 2 次后仍失败",
+    "retry": "max 2, interval 5s",
+    "counts_as": 0,
+    "in_itt_denominator": true
+  },
+  "client_error": {
+    "definition": "HTTP 4xx（非 429）",
+    "retry": false,
+    "counts_as": 0,
+    "in_itt_denominator": true,
+    "note": "记录具体状态码与响应消息"
+  },
+  "blocked": {
+    "definition": "Safety filter 拒绝",
+    "retry": false,
+    "counts_as": 0,
+    "in_itt_denominator": true,
+    "note": "记录 blockReason；不触发连续失败暂停逻辑"
+  },
+  "refused": {
+    "definition": "模型主动拒答（非 safety filter）",
+    "retry": false,
+    "counts_as": 0,
+    "in_itt_denominator": true,
+    "note": "保留完整响应；不触发连续失败暂停逻辑"
+  },
+  "protocol_deviation": {
+    "definition": "研究者配置错误导致请求无效",
+    "retry": false,
+    "counts_as": 0,
+    "in_itt_denominator": true,
+    "note": "不伪装成模型失败，不删除，单独报告"
+  }
+}

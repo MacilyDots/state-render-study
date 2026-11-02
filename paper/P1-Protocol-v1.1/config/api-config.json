@@ -1,0 +1,29 @@
+{
+  "model": "gemini-3.1-flash-image",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image:generateContent",
+  "api_version": "v1beta",
+  "image_group": {
+    "generationConfig": {
+      "responseModalities": ["TEXT", "IMAGE"],
+      "candidateCount": 1,
+      "maxOutputTokens": 8192
+    }
+  },
+  "text_group": {
+    "generationConfig": {
+      "responseModalities": ["TEXT"],
+      "candidateCount": 1,
+      "maxOutputTokens": 8192
+    }
+  },
+  "temperature": null,
+  "safety_settings": "default (not overridden)",
+  "timeout_seconds": null,
+  "timeout_note": "由先导实验响应时间分布校准后填入，正式实验冻结，不得修改",
+  "credentials": "从环境变量 GOOGLE_API_KEY 读取；本文件不得保存任何密钥",
+  "verification_required": [
+    "candidateCount 是否被该模型在 v1beta 端点接受",
+    "maxOutputTokens 8192 是否被接受",
+    "responseModalities 组合是否有效"
+  ]
+}

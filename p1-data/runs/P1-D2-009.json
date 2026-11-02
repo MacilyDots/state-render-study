@@ -1,0 +1,48 @@
+{
+  "exp": "P1-image-pilot",
+  "model": "gemini-3.1-flash-image",
+  "mode": "image",
+  "id": "D2",
+  "run_id": "P1-D2-009",
+  "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+  "requested": 3,
+  "raw_count": 3,
+  "decodable_count": 3,
+  "unique_count": 3,
+  "task_conforming_count": null,
+  "images": [
+    "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_1.jpg",
+    "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_2.jpg",
+    "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_3.jpg"
+  ],
+  "image_sizes": [
+    "804833B",
+    "794784B",
+    "800875B"
+  ],
+  "text": "好的，这是为您生成的三个不同场景的卧室床沿看书照片。\n\n**场景一：惬意的清晨**\n\n在这张照片中，早晨温暖的阳光透过窗户洒入房间，东亚女性坐在床沿，专注于手中的书籍。\n\n\n**场景二：安静的午后**\n\n午后的光线更加强烈，窗外的景色也更加明亮。女性穿着一件针织衫，姿态更加放松。\n\n\n**场景三：柔和的侧影**\n\n在这张照片中，光线主要从左侧的窗户射入，为女性的侧脸和头发镀上了一层金边。\n\n",
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 4549,
+    "totalTokenCount": 4584,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 3360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "retried": 0,
+  "error": null,
+  "blocked": null,
+  "response_time_ms": 31385,
+  "timestamp": "2026-11-01T18:31:30.381Z"
+}

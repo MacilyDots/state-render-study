@@ -1,0 +1,1334 @@
+[
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-001",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-001/P1-D1-001_1.jpg"
+    ],
+    "image_sizes": [
+      "793010B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1460,
+      "totalTokenCount": 1495,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10076,
+    "timestamp": "2026-11-01T18:26:49.032Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-002",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-002/P1-D1-002_1.jpg"
+    ],
+    "image_sizes": [
+      "903695B"
+    ],
+    "text": "好的，为您生成了九张约22岁东亚女性在卧室床沿看书的照片，均采用自然窗光和真实摄影质感：\n\n1. **窗边晨读**：阳光透过白纱帘洒在她的脸上和书页上，氛围温馨。\n2. **沉浸式阅读**：她微微低头，神情专注，背景是整齐的书架和舒适的床品。\n3. **午后惬意**：光线斜射入房间，她靠在床头，阳光在身上形成温暖的光影。\n4. **随性自然**：她盘腿坐在床沿，神态放松，背景呈现自然的居家生活气息。\n5. **逆光侧影**：从侧面拍摄，光线勾勒出她的轮廓，书籍细节清晰可见，极具质感。\n6. **温馨一隅**：窗外是城市街景，她坐在窗前看书，氛围宁静安详。\n7. **窗前思索**：她放下书，若有所思地看向窗外，捕捉瞬间的宁静与思考。\n8. **静谧时光**：光线柔和，她靠在床头，专注于手中的书，画面安静而美好。\n9. **自然光影**：利用窗外的光线，在她的脸上和书本上形成自然的光影变化，画面极具电影感。\n\n希望您喜欢这些照片！",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2137,
+      "totalTokenCount": 2172,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 12040,
+    "timestamp": "2026-11-01T18:27:01.096Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-003",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-003/P1-D1-003_1.jpg"
+    ],
+    "image_sizes": [
+      "831666B"
+    ],
+    "text": "你好，我为你准备了这一组九张照片，展示了一位东亚女性在卧室床沿阅读的场景。这些照片利用了自然的窗光，并呈现出真实的摄影质感。",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1766,
+      "totalTokenCount": 1801,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10940,
+    "timestamp": "2026-11-01T18:27:12.044Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-004",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-004/P1-D1-004_1.jpg"
+    ],
+    "image_sizes": [
+      "896019B"
+    ],
+    "text": "好的，为您生成了九张约22岁东亚女性在卧室床沿看书的照片，均采用自然窗光和真实摄影质感，并呈现了九个不同的场景：\n\n1. **清晨柔光：** 穿着白色针织衫和牛仔裤，在晨光中安静阅读。\n2. **午后阳光：** 穿着舒适的卫衣和休闲裤，沐浴在温暖的午后阳光下。\n3. **黄昏暖意：** 穿着米色毛衣，在窗外透进的柔和黄昏光线中阅读。\n4. **雨天惬意：** 穿着深蓝色针织衫，在窗外下着雨的惬意氛围中享受阅读。\n5. **窗边绿意：** 穿着白色T恤和碎花短裙，靠在窗边，绿植环绕。\n6. **阁楼一角：** 穿着灰色连帽衫，在舒适的阁楼卧室中阅读。\n7. **極簡風格：** 穿着黑色针织衫和米色裤子，在極簡風格的卧室中专注于书本。\n8. **温馨小物：** 穿着条纹T恤和牛仔裤，周围摆放着温馨的小物和植物。\n9. **复古情调：** 穿着复古风印花连衣裙，在充满复古情调的卧室中阅读。\n\n希望这些照片能满足您的需求。",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2121,
+      "totalTokenCount": 2156,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 12603,
+    "timestamp": "2026-11-01T18:27:24.671Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-005",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-005/P1-D1-005_1.jpg"
+    ],
+    "image_sizes": [
+      "924019B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1824,
+      "totalTokenCount": 1859,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10462,
+    "timestamp": "2026-11-01T18:27:35.140Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-006",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-006/P1-D1-006_1.jpg"
+    ],
+    "image_sizes": [
+      "849159B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1616,
+      "totalTokenCount": 1651,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10297,
+    "timestamp": "2026-11-01T18:27:45.443Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-007",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-007/P1-D1-007_1.jpg"
+    ],
+    "image_sizes": [
+      "854339B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1604,
+      "totalTokenCount": 1639,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 9387,
+    "timestamp": "2026-11-01T18:27:54.835Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-008",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 5,
+    "decodable_count": 5,
+    "unique_count": 5,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-008/P1-D1-008_1.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D1-008/P1-D1-008_2.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D1-008/P1-D1-008_3.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D1-008/P1-D1-008_4.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D1-008/P1-D1-008_5.jpg"
+    ],
+    "image_sizes": [
+      "762193B",
+      "714650B",
+      "712045B",
+      "786922B",
+      "779332B"
+    ],
+    "text": "我们将采用真实摄影质感和自然光，捕捉她坐在床沿阅读的宁静时刻。在九张照片中，她的动作和环境会有些微的变化。\n\n---\n\n### 第一张：自然光与安宁\n\n这张照片捕捉了早晨柔和的自然光，光线通过一扇大窗户洒入，照亮了床沿和这位东亚女性。她身穿舒适的奶油色毛衣，坐在铺着简约米色亚麻床单的床边。她的头发随意扎起，正专注地看着一本打开的书，双手轻轻托着书页。照片使用了浅景深，将焦点集中在她的表情和书上，背景的窗户和卧室摆设被柔和地虚化，营造出宁静、温馨的氛围。\n\n\n***\n\n第一张照片捕捉了早晨柔和的自然光，光线通过大窗户洒入，照亮了坐在床沿的女性。她身穿奶油色毛衣，专注于手中的书，营造出宁静、温馨的氛围。\n\n我们将在这张照片建立的自然、纪实质感基础上，生成第二张照片。\n\n***\n\n### 第二张：窗边的侧影\n\n这张照片将视角转向窗户，利用侧光捕捉一个更加内省的瞬间。她（穿着与第一张照片相同的奶油色毛衣和牛仔裤）坐在床沿，但身体微微转向窗户，书放在膝盖上。她没有在看书，而是目光凝视着窗外，似乎在思考书中的内容。自然光勾勒出她的侧脸和肩膀。窗框、远处模糊的绿植以及卧室一角的吉他架，构成了一个更宽广、更具生活气息的环境，光影的对比更加强烈。\n\n\n***\n\n第二张照片将视角转向窗户，捕捉了她（穿着与第一张照片相同的奶油色毛衣和牛仔裤）凝视窗外的侧影。书放在膝盖上，自然光勾勒出她的轮廓。\n\n我们将在这个侧影的视觉基础上，生成第三张照片。\n\n***\n\n### 第三张：近距离：专注的书页\n\n这张照片转为近景，聚焦于她的手和手中的书。通过浅景深，她的面部和她（穿着与前两张照片相同的奶油色毛衣）的身体大部分都处于柔和的虚化中。光线仍然是来自窗户的自然柔光，照亮了书页。她的双手轻轻捏着书的两侧。我们可以清晰地看到书名《寂静的溪流》（The Silent Stream）和页面上的文字。\n\n\n***\n\n第三张照片转为近景，聚焦于她（穿着与前两张照片相同的奶油色毛衣）的手和手中的书。通过浅景深，她的面部柔和地虚化，光线照亮了书页，清晰地展示了书名《寂静的溪流》。\n\n我们将保持这种亲密、宁静的氛围，并引入一个新的、更放松的姿态。\n\n***\n\n### 第四张：舒适的卷曲：床上的新姿态\n\n在这张照片中，她采用了更放松的姿态：身体卷曲，坐在铺着 rumpled white linen duvet（凌乱白麻羽绒被）的床中央。她依然穿着那件奶油色毛衣，将书《寂静的溪流》放在膝盖上。她没有穿牛仔裤，而是穿着舒适的米色针织袜和深蓝色睡裤，一只脚放在床上。自然光通过窗户（现在在左侧）洒入，照亮了她的侧脸和书页。背景中，窗外的绿植和床头的木质纹理更加清晰。\n\n\n***\n\n第四张照片捕捉了一个更放松的卷曲姿态，她身穿奶油色毛衣和深蓝色睡裤，坐在铺着凌乱羽绒被的床中央。自然光通过窗户（现在在左侧）洒入，照亮了她的侧脸和书页。\n\n我们将引入一个新的、略显沉思的姿势，同时通过环境细节（如吉他）保持视觉的连续性。\n\n***\n\n### 第五张：沉思的瞬间：吉他与窗\n\n在这张照片中，她（穿着奶油色毛衣和深蓝色睡裤）保持着卷曲坐在床上的姿势，但她的头微微后仰，靠在床头板（露出木质纹理）上，双眼微微闭合，似乎在沉思书中的内容。书《寂静的溪流》仍然在她的膝盖上，但她的双手合拢放在书上。窗户（在左侧）的自然光勾勒出她的侧脸和肩膀。背景中，除了窗外的绿植，我们还可以清晰地看到在第二张照片中出现过的吉他，它靠在墙角，为场景增加了一个熟悉、生活化的元素。\n\n\n***\n\n第五张照片捕捉了她（穿着奶油色毛衣和深蓝色睡裤）靠在木质床头板上沉思的瞬间。她合拢双手放在膝盖上的书《寂静的溪流》上。窗外的自然光和背景中的吉他增加了熟悉、生活化的元素。\n\n我们将在这个沉思姿态的基础上，通过引入一个新的服装元素，来丰富场景的纹理和色彩。\n\n***\n\n### 第六张：纹理与对比：蓝色开衫\n\n在这张照片中，她（仍然靠在木质床头板上）在奶油色毛衣外面穿上了一件深蓝色粗花呢开衫，为场景引入了新的纹理和色彩对比。她把膝盖上的书《寂静的溪流》翻到了一页，双手放在上面。窗外的自然光（仍然在左侧）更加柔和，突出了开衫、毛衣和凌乱白麻羽绒被的不同纹理。她的表情比上一张照片更加专注，似乎回到了阅读中。背景中的吉他和窗外绿植在柔和的 bokeh 中依然可见。\n\n",
+    "finish": "MAX_TOKENS",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 8315,
+      "totalTokenCount": 8350,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 5600
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 65933,
+    "timestamp": "2026-11-01T18:29:00.800Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-009",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-009/P1-D1-009_1.jpg"
+    ],
+    "image_sizes": [
+      "913494B"
+    ],
+    "text": "这里为您生成了九张不同场景的照片，展示了一位约22岁的东亚女性在卧室床沿看书的温馨场景。每张照片都捕捉了不同的光线、氛围和细节，呈现出真实、自然的摄影质感。\n\n",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1716,
+      "totalTokenCount": 1751,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 11192,
+    "timestamp": "2026-11-01T18:29:12.016Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D1",
+    "run_id": "P1-D1-010",
+    "msg": "生成九张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 9,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D1-010/P1-D1-010_1.jpg"
+    ],
+    "image_sizes": [
+      "864219B"
+    ],
+    "text": "好的，为您生成了九张真实摄影质感的东亚女性在卧室看书的照片。\n\n這九張照片捕捉了一位約22歲的東亞女性在不同場景、自然窗光下坐在臥室床沿看書的真實瞬間，呈現出溫暖舒適的氛圍。",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2000,
+      "totalTokenCount": 2035,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 12441,
+    "timestamp": "2026-11-01T18:29:24.466Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-001",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-001/P1-D2-001_1.jpg"
+    ],
+    "image_sizes": [
+      "897909B"
+    ],
+    "text": "好的，我为您生成了三张不同视角的照片。\n\n这组照片捕捉了一位22岁东亚女性在卧室床沿安静看书的场景。为了营造真实摄影质感，我们选用了自然的窗光，并采用了不同的拍摄视角。\n\n第一张照片是侧面中景镜头，聚焦于她阅读时的宁静侧脸和柔和的窗光。\n\n第二张照片是近景特写，强调了她专注的神情以及由于自然光线而显得通透的肌肤质感。\n\n第三张照片是远景镜头，展示了整个卧室环境，通过窗外和窗内的光影对比，营造出一种舒适、惬意的氛围。\n\n希望您会喜欢这组照片。",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2082,
+      "totalTokenCount": 2117,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 13275,
+    "timestamp": "2026-11-01T18:29:37.866Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-002",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-002/P1-D2-002_1.jpg"
+    ],
+    "image_sizes": [
+      "869684B"
+    ],
+    "text": "这就为您生成这三张照片。\n\n**场景一：清晨。** 自然光从窗外柔和地照在她的脸上。她穿着一件米色针织衫，正低头看着手中的书，神情专注。\n\n",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1980,
+      "totalTokenCount": 2015,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 12148,
+    "timestamp": "2026-11-01T18:29:50.024Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-003",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-003/P1-D2-003_1.jpg"
+    ],
+    "image_sizes": [
+      "892018B"
+    ],
+    "text": "好的，这里是三张记录这位22岁东亚女性在卧室床沿看书的自然摄影：\n\n### 第一张：柔和的晨光\n\n在这张照片中，温暖、柔和的晨光透过窗帘洒在她身上，营造出宁静、安详的氛围。\n\n### 第二张：午后的温暖\n\n这一张光线更加明亮，金色的午后阳光洒在床头，她专注于书本，享受着惬意的午后时光。\n\n### 第三张：雨天的惬意\n\n在这一张中，窗外是阴雨天，室内的光线显得更加柔和、私密。她蜷缩在床沿，手中捧着书，显得格外惬意。\n\n希望这些照片能满足您的需求。",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1800,
+      "totalTokenCount": 1835,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10471,
+    "timestamp": "2026-11-01T18:30:00.504Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-004",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-004/P1-D2-004_1.jpg"
+    ],
+    "image_sizes": [
+      "881996B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1784,
+      "totalTokenCount": 1819,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10682,
+    "timestamp": "2026-11-01T18:30:11.194Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-005",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-005/P1-D2-005_1.jpg"
+    ],
+    "image_sizes": [
+      "816483B"
+    ],
+    "text": "这是一组关于22岁东亚女性在卧室床沿看书的自然光摄影作品：\n\n### 第一张：宁静的晨读\n\n第一张照片捕捉了晨间的静谧。柔和的阳光透过窗户洒在她的身上和床单上。她坐在一张白色的床沿，穿着米色的针织衫和牛仔裤，专注地看着手中的书本。背景的卧室布置温馨，书架上摆满了书籍，透出一种宁静的生活气息。\n\n### 第二张：午后的遐想\n\n第二张照片中，光线变得更加温暖、明亮。她依然坐在床沿，但换了一个姿势，仿佛正沉浸在书中的情节中，嘴角带着一丝笑意。窗外的景色和屋内的植物在阳光的映照下，显得格外生动。这张照片捕捉到了她在午后时光的惬意。\n\n### 第三张：黄昏的惬意\n\n最后一张照片是在黄昏时分拍摄的。夕阳的余晖给卧室披上了一层金色的外衣，营造出一种温馨而感性的氛围。她穿着一件蓝色的格子衬衫，随意地坐在床沿，享受着一天中最后的阅读时光。这张照片的质感更加细腻，能够感受到时间的流逝。\n\n希望这组照片能满足你的需求！\n",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2117,
+      "totalTokenCount": 2152,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 14321,
+    "timestamp": "2026-11-01T18:30:25.524Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-006",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-006/P1-D2-006_1.jpg"
+    ],
+    "image_sizes": [
+      "878735B"
+    ],
+    "text": "好的，为您生成了三张约22岁东亚女性在不同卧室场景中看书的照片，均采用自然窗光和真实摄影质感。\nThis single image contains exactly three photos as requested, featuring a 22-year-old East Asian woman reading in a bedroom with natural window light. The style is that of real photography, and each section shows a slightly different bedroom setup, fulfilling all prompt requirements perfectly.",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1851,
+      "totalTokenCount": 1886,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 11203,
+    "timestamp": "2026-11-01T18:30:36.737Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-007",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-007/P1-D2-007_1.jpg"
+    ],
+    "image_sizes": [
+      "807938B"
+    ],
+    "text": "好的，这是为您生成的三张照片，展示了约22岁的东亚女性在卧室床沿看书的场景：\n\n**场景 1：舒适的现代简约风**\n\n这张照片展示了女性在一个现代风格的卧室内，穿着舒适的卫衣和牛仔裤，自然光从右侧窗户射入，营造出温暖舒适的氛围。\n\n**场景 2：温馨的北欧风**\n\n这张照片展示了女性在一个北欧风格的卧室内，穿着针织毛衣和裙子，光线从窗户照在书本上，氛围温馨而宁静。\n\n**场景 3：充满活力的日式风**\n\n这张照片展示了女性在一个日式风格的卧室内，穿着衬衫和休闲裤，光线柔和地照在书本上，氛围充满活力和生机。\n\n希望您能喜欢！",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1768,
+      "totalTokenCount": 1803,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10369,
+    "timestamp": "2026-11-01T18:30:47.130Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-008",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-008/P1-D2-008_1.jpg"
+    ],
+    "image_sizes": [
+      "961915B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 1909,
+      "totalTokenCount": 1944,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 11835,
+    "timestamp": "2026-11-01T18:30:58.973Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-009",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 3,
+    "decodable_count": 3,
+    "unique_count": 3,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_1.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_2.jpg",
+      "X:/work/state-render-study/p1-data/images/P1-D2-009/P1-D2-009_3.jpg"
+    ],
+    "image_sizes": [
+      "804833B",
+      "794784B",
+      "800875B"
+    ],
+    "text": "好的，这是为您生成的三个不同场景的卧室床沿看书照片。\n\n**场景一：惬意的清晨**\n\n在这张照片中，早晨温暖的阳光透过窗户洒入房间，东亚女性坐在床沿，专注于手中的书籍。\n\n\n**场景二：安静的午后**\n\n午后的光线更加强烈，窗外的景色也更加明亮。女性穿着一件针织衫，姿态更加放松。\n\n\n**场景三：柔和的侧影**\n\n在这张照片中，光线主要从左侧的窗户射入，为女性的侧脸和头发镀上了一层金边。\n\n",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 4549,
+      "totalTokenCount": 4584,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 3360
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 31385,
+    "timestamp": "2026-11-01T18:31:30.381Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D2",
+    "run_id": "P1-D2-010",
+    "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+    "requested": 3,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D2-010/P1-D2-010_1.jpg"
+    ],
+    "image_sizes": [
+      "899075B"
+    ],
+    "text": "好的，这是为您生成的三张照片，每张都展示了不同的卧室场景。\n\n{image_0.png}\n{image_1.png}\n{image_2.png}\n",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 35,
+      "candidatesTokenCount": 2021,
+      "totalTokenCount": 2056,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 35
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 12318,
+    "timestamp": "2026-11-01T18:31:42.722Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-001",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-001/P1-D3-001_1.jpg"
+    ],
+    "image_sizes": [
+      "794963B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1681,
+      "totalTokenCount": 1709,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10326,
+    "timestamp": "2026-11-01T18:31:53.178Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-002",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-002/P1-D3-002_1.jpg"
+    ],
+    "image_sizes": [
+      "857821B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1689,
+      "totalTokenCount": 1717,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10641,
+    "timestamp": "2026-11-01T18:32:03.843Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-003",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-003/P1-D3-003_1.jpg"
+    ],
+    "image_sizes": [
+      "838921B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1609,
+      "totalTokenCount": 1637,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10355,
+    "timestamp": "2026-11-01T18:32:14.220Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-004",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-004/P1-D3-004_1.jpg"
+    ],
+    "image_sizes": [
+      "894714B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1584,
+      "totalTokenCount": 1612,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10795,
+    "timestamp": "2026-11-01T18:32:25.037Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-005",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-005/P1-D3-005_1.jpg"
+    ],
+    "image_sizes": [
+      "784444B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1577,
+      "totalTokenCount": 1605,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10674,
+    "timestamp": "2026-11-01T18:32:35.716Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-006",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-006/P1-D3-006_1.jpg"
+    ],
+    "image_sizes": [
+      "808779B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1615,
+      "totalTokenCount": 1643,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 9786,
+    "timestamp": "2026-11-01T18:32:45.507Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-007",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-007/P1-D3-007_1.jpg"
+    ],
+    "image_sizes": [
+      "838888B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1629,
+      "totalTokenCount": 1657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10084,
+    "timestamp": "2026-11-01T18:32:55.597Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-008",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-008/P1-D3-008_1.jpg"
+    ],
+    "image_sizes": [
+      "852228B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1596,
+      "totalTokenCount": 1624,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 9568,
+    "timestamp": "2026-11-01T18:33:05.187Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-009",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-009/P1-D3-009_1.jpg"
+    ],
+    "image_sizes": [
+      "827002B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1584,
+      "totalTokenCount": 1612,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 9026,
+    "timestamp": "2026-11-01T18:33:14.218Z"
+  },
+  {
+    "exp": "P1-image-pilot",
+    "model": "gemini-3.1-flash-image",
+    "mode": "image",
+    "id": "D3",
+    "run_id": "P1-D3-010",
+    "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+    "requested": 1,
+    "raw_count": 1,
+    "decodable_count": 1,
+    "unique_count": 1,
+    "task_conforming_count": null,
+    "images": [
+      "X:/work/state-render-study/p1-data/images/P1-D3-010/P1-D3-010_1.jpg"
+    ],
+    "image_sizes": [
+      "819717B"
+    ],
+    "text": "",
+    "finish": "STOP",
+    "usage": {
+      "promptTokenCount": 28,
+      "candidatesTokenCount": 1630,
+      "totalTokenCount": 1658,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 28
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "IMAGE",
+          "tokenCount": 1120
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "retried": 0,
+    "error": null,
+    "blocked": null,
+    "response_time_ms": 10033,
+    "timestamp": "2026-11-01T18:33:24.274Z"
+  }
+]

@@ -1,0 +1,1521 @@
+{
+  "seed": 20261102,
+  "generated": "2026-11-01T18:16:07.707Z",
+  "note": "固定种子生成，任何人可用同种子复现。先导与正式阶段独立打乱。",
+  "pilot": {
+    "calls": 75,
+    "plan": [
+      {
+        "order": 1,
+        "phase": "pilot",
+        "run_id": "P1-9call-031",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 2,
+        "phase": "pilot",
+        "run_id": "P1-9call-007",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 3,
+        "phase": "pilot",
+        "run_id": "P1-9call-008",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 4,
+        "phase": "pilot",
+        "run_id": "P1-9call-018",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 5,
+        "phase": "pilot",
+        "run_id": "P1-9call-032",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 6,
+        "phase": "pilot",
+        "run_id": "P1-9call-017",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 7,
+        "phase": "pilot",
+        "run_id": "P1-9call-004",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 8,
+        "phase": "pilot",
+        "run_id": "P1-D2-001",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 9,
+        "phase": "pilot",
+        "run_id": "P1-9call-042",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 10,
+        "phase": "pilot",
+        "run_id": "P1-9call-016",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 11,
+        "phase": "pilot",
+        "run_id": "P1-9call-041",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 12,
+        "phase": "pilot",
+        "run_id": "P1-9call-038",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 13,
+        "phase": "pilot",
+        "run_id": "P1-9call-024",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 14,
+        "phase": "pilot",
+        "run_id": "P1-9call-014",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 15,
+        "phase": "pilot",
+        "run_id": "P1-D1-009",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 16,
+        "phase": "pilot",
+        "run_id": "P1-9call-034",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 17,
+        "phase": "pilot",
+        "run_id": "P1-9call-011",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 18,
+        "phase": "pilot",
+        "run_id": "P1-D3-010",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 19,
+        "phase": "pilot",
+        "run_id": "P1-9call-023",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 20,
+        "phase": "pilot",
+        "run_id": "P1-9call-027",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 21,
+        "phase": "pilot",
+        "run_id": "P1-9call-044",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 22,
+        "phase": "pilot",
+        "run_id": "P1-D3-003",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 23,
+        "phase": "pilot",
+        "run_id": "P1-D2-004",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 24,
+        "phase": "pilot",
+        "run_id": "P1-9call-002",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 25,
+        "phase": "pilot",
+        "run_id": "P1-D1-010",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 26,
+        "phase": "pilot",
+        "run_id": "P1-D1-001",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 27,
+        "phase": "pilot",
+        "run_id": "P1-D2-003",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 28,
+        "phase": "pilot",
+        "run_id": "P1-9call-021",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 29,
+        "phase": "pilot",
+        "run_id": "P1-9call-001",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 30,
+        "phase": "pilot",
+        "run_id": "P1-D1-004",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 31,
+        "phase": "pilot",
+        "run_id": "P1-9call-026",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 32,
+        "phase": "pilot",
+        "run_id": "P1-9call-022",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 33,
+        "phase": "pilot",
+        "run_id": "P1-9call-033",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 34,
+        "phase": "pilot",
+        "run_id": "P1-D3-008",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 35,
+        "phase": "pilot",
+        "run_id": "P1-D2-010",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 36,
+        "phase": "pilot",
+        "run_id": "P1-9call-035",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 37,
+        "phase": "pilot",
+        "run_id": "P1-9call-012",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 38,
+        "phase": "pilot",
+        "run_id": "P1-9call-019",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 39,
+        "phase": "pilot",
+        "run_id": "P1-9call-030",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 40,
+        "phase": "pilot",
+        "run_id": "P1-9call-040",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 41,
+        "phase": "pilot",
+        "run_id": "P1-9call-036",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 42,
+        "phase": "pilot",
+        "run_id": "P1-9call-037",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 43,
+        "phase": "pilot",
+        "run_id": "P1-9call-010",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 44,
+        "phase": "pilot",
+        "run_id": "P1-9call-003",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 45,
+        "phase": "pilot",
+        "run_id": "P1-D1-003",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 46,
+        "phase": "pilot",
+        "run_id": "P1-D2-008",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 47,
+        "phase": "pilot",
+        "run_id": "P1-9call-039",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 48,
+        "phase": "pilot",
+        "run_id": "P1-D3-005",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 49,
+        "phase": "pilot",
+        "run_id": "P1-9call-045",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 50,
+        "phase": "pilot",
+        "run_id": "P1-9call-013",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 51,
+        "phase": "pilot",
+        "run_id": "P1-D3-001",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 52,
+        "phase": "pilot",
+        "run_id": "P1-9call-028",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 53,
+        "phase": "pilot",
+        "run_id": "P1-9call-009",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 54,
+        "phase": "pilot",
+        "run_id": "P1-9call-029",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 55,
+        "phase": "pilot",
+        "run_id": "P1-9call-025",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 56,
+        "phase": "pilot",
+        "run_id": "P1-9call-020",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 57,
+        "phase": "pilot",
+        "run_id": "P1-D1-005",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 58,
+        "phase": "pilot",
+        "run_id": "P1-D1-002",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 59,
+        "phase": "pilot",
+        "run_id": "P1-D3-004",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 60,
+        "phase": "pilot",
+        "run_id": "P1-D3-002",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 61,
+        "phase": "pilot",
+        "run_id": "P1-D2-005",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 62,
+        "phase": "pilot",
+        "run_id": "P1-D1-007",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 63,
+        "phase": "pilot",
+        "run_id": "P1-D2-002",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 64,
+        "phase": "pilot",
+        "run_id": "P1-D3-006",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 65,
+        "phase": "pilot",
+        "run_id": "P1-D1-008",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 66,
+        "phase": "pilot",
+        "run_id": "P1-D3-007",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 67,
+        "phase": "pilot",
+        "run_id": "P1-9call-043",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 68,
+        "phase": "pilot",
+        "run_id": "P1-9call-005",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 69,
+        "phase": "pilot",
+        "run_id": "P1-D2-009",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 70,
+        "phase": "pilot",
+        "run_id": "P1-9call-015",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 71,
+        "phase": "pilot",
+        "run_id": "P1-D2-007",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 72,
+        "phase": "pilot",
+        "run_id": "P1-D3-009",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 73,
+        "phase": "pilot",
+        "run_id": "P1-D2-006",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 74,
+        "phase": "pilot",
+        "run_id": "P1-9call-006",
+        "group": "9call",
+        "turns": 1
+      },
+      {
+        "order": 75,
+        "phase": "pilot",
+        "run_id": "P1-D1-006",
+        "group": "D1",
+        "turns": 1
+      }
+    ]
+  },
+  "formal": {
+    "sessions": 140,
+    "calls": 200,
+    "plan": [
+      {
+        "order": 1,
+        "phase": "formal",
+        "run_id": "P1-B-016",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 2,
+        "phase": "formal",
+        "run_id": "P1-A-020",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 3,
+        "phase": "formal",
+        "run_id": "P1-A-011",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 4,
+        "phase": "formal",
+        "run_id": "P1-T-A-003",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 5,
+        "phase": "formal",
+        "run_id": "P1-T-A-004",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 6,
+        "phase": "formal",
+        "run_id": "P1-D2-005",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 7,
+        "phase": "formal",
+        "run_id": "P1-D1-010",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 8,
+        "phase": "formal",
+        "run_id": "P1-A-013",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 9,
+        "phase": "formal",
+        "run_id": "P1-D1-011",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 10,
+        "phase": "formal",
+        "run_id": "P1-T-D1-009",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 11,
+        "phase": "formal",
+        "run_id": "P1-T-B-007",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 12,
+        "phase": "formal",
+        "run_id": "P1-D3-004",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 13,
+        "phase": "formal",
+        "run_id": "P1-T-A-002",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 14,
+        "phase": "formal",
+        "run_id": "P1-D2-006",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 15,
+        "phase": "formal",
+        "run_id": "P1-T-C-010",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 16,
+        "phase": "formal",
+        "run_id": "P1-T-A-006",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 17,
+        "phase": "formal",
+        "run_id": "P1-D1-017",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 18,
+        "phase": "formal",
+        "run_id": "P1-A-015",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 19,
+        "phase": "formal",
+        "run_id": "P1-D3-003",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 20,
+        "phase": "formal",
+        "run_id": "P1-D2-007",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 21,
+        "phase": "formal",
+        "run_id": "P1-T-B-009",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 22,
+        "phase": "formal",
+        "run_id": "P1-B-010",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 23,
+        "phase": "formal",
+        "run_id": "P1-T-D1-003",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 24,
+        "phase": "formal",
+        "run_id": "P1-T-D1-005",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 25,
+        "phase": "formal",
+        "run_id": "P1-D3-006",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 26,
+        "phase": "formal",
+        "run_id": "P1-T-A-007",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 27,
+        "phase": "formal",
+        "run_id": "P1-C-003",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 28,
+        "phase": "formal",
+        "run_id": "P1-C-013",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 29,
+        "phase": "formal",
+        "run_id": "P1-C-006",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 30,
+        "phase": "formal",
+        "run_id": "P1-C-012",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 31,
+        "phase": "formal",
+        "run_id": "P1-C-004",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 32,
+        "phase": "formal",
+        "run_id": "P1-T-C-002",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 33,
+        "phase": "formal",
+        "run_id": "P1-B-017",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 34,
+        "phase": "formal",
+        "run_id": "P1-A-012",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 35,
+        "phase": "formal",
+        "run_id": "P1-C-009",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 36,
+        "phase": "formal",
+        "run_id": "P1-T-A-005",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 37,
+        "phase": "formal",
+        "run_id": "P1-D3-010",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 38,
+        "phase": "formal",
+        "run_id": "P1-T-D1-002",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 39,
+        "phase": "formal",
+        "run_id": "P1-B-001",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 40,
+        "phase": "formal",
+        "run_id": "P1-C-018",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 41,
+        "phase": "formal",
+        "run_id": "P1-D1-007",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 42,
+        "phase": "formal",
+        "run_id": "P1-C-002",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 43,
+        "phase": "formal",
+        "run_id": "P1-B-008",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 44,
+        "phase": "formal",
+        "run_id": "P1-A-017",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 45,
+        "phase": "formal",
+        "run_id": "P1-A-007",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 46,
+        "phase": "formal",
+        "run_id": "P1-D3-001",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 47,
+        "phase": "formal",
+        "run_id": "P1-B-012",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 48,
+        "phase": "formal",
+        "run_id": "P1-D1-001",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 49,
+        "phase": "formal",
+        "run_id": "P1-T-C-004",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 50,
+        "phase": "formal",
+        "run_id": "P1-B-005",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 51,
+        "phase": "formal",
+        "run_id": "P1-B-013",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 52,
+        "phase": "formal",
+        "run_id": "P1-T-B-003",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 53,
+        "phase": "formal",
+        "run_id": "P1-T-B-006",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 54,
+        "phase": "formal",
+        "run_id": "P1-D1-013",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 55,
+        "phase": "formal",
+        "run_id": "P1-T-C-008",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 56,
+        "phase": "formal",
+        "run_id": "P1-B-020",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 57,
+        "phase": "formal",
+        "run_id": "P1-D1-002",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 58,
+        "phase": "formal",
+        "run_id": "P1-B-015",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 59,
+        "phase": "formal",
+        "run_id": "P1-T-B-005",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 60,
+        "phase": "formal",
+        "run_id": "P1-A-002",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 61,
+        "phase": "formal",
+        "run_id": "P1-T-D1-001",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 62,
+        "phase": "formal",
+        "run_id": "P1-C-019",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 63,
+        "phase": "formal",
+        "run_id": "P1-D3-005",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 64,
+        "phase": "formal",
+        "run_id": "P1-A-004",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 65,
+        "phase": "formal",
+        "run_id": "P1-C-001",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 66,
+        "phase": "formal",
+        "run_id": "P1-T-D1-007",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 67,
+        "phase": "formal",
+        "run_id": "P1-D1-016",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 68,
+        "phase": "formal",
+        "run_id": "P1-T-B-004",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 69,
+        "phase": "formal",
+        "run_id": "P1-A-003",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 70,
+        "phase": "formal",
+        "run_id": "P1-D2-009",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 71,
+        "phase": "formal",
+        "run_id": "P1-T-B-002",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 72,
+        "phase": "formal",
+        "run_id": "P1-D1-014",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 73,
+        "phase": "formal",
+        "run_id": "P1-C-017",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 74,
+        "phase": "formal",
+        "run_id": "P1-D2-003",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 75,
+        "phase": "formal",
+        "run_id": "P1-A-005",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 76,
+        "phase": "formal",
+        "run_id": "P1-T-B-001",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 77,
+        "phase": "formal",
+        "run_id": "P1-D1-008",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 78,
+        "phase": "formal",
+        "run_id": "P1-D1-015",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 79,
+        "phase": "formal",
+        "run_id": "P1-C-014",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 80,
+        "phase": "formal",
+        "run_id": "P1-B-002",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 81,
+        "phase": "formal",
+        "run_id": "P1-A-001",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 82,
+        "phase": "formal",
+        "run_id": "P1-D2-010",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 83,
+        "phase": "formal",
+        "run_id": "P1-B-009",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 84,
+        "phase": "formal",
+        "run_id": "P1-B-018",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 85,
+        "phase": "formal",
+        "run_id": "P1-A-014",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 86,
+        "phase": "formal",
+        "run_id": "P1-D1-018",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 87,
+        "phase": "formal",
+        "run_id": "P1-A-010",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 88,
+        "phase": "formal",
+        "run_id": "P1-C-011",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 89,
+        "phase": "formal",
+        "run_id": "P1-C-007",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 90,
+        "phase": "formal",
+        "run_id": "P1-T-C-007",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 91,
+        "phase": "formal",
+        "run_id": "P1-B-004",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 92,
+        "phase": "formal",
+        "run_id": "P1-D3-002",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 93,
+        "phase": "formal",
+        "run_id": "P1-T-C-003",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 94,
+        "phase": "formal",
+        "run_id": "P1-B-006",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 95,
+        "phase": "formal",
+        "run_id": "P1-T-B-010",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 96,
+        "phase": "formal",
+        "run_id": "P1-D2-008",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 97,
+        "phase": "formal",
+        "run_id": "P1-C-010",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 98,
+        "phase": "formal",
+        "run_id": "P1-D1-006",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 99,
+        "phase": "formal",
+        "run_id": "P1-B-003",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 100,
+        "phase": "formal",
+        "run_id": "P1-C-020",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 101,
+        "phase": "formal",
+        "run_id": "P1-D2-004",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 102,
+        "phase": "formal",
+        "run_id": "P1-T-D1-006",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 103,
+        "phase": "formal",
+        "run_id": "P1-A-008",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 104,
+        "phase": "formal",
+        "run_id": "P1-D1-020",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 105,
+        "phase": "formal",
+        "run_id": "P1-D2-002",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 106,
+        "phase": "formal",
+        "run_id": "P1-D3-009",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 107,
+        "phase": "formal",
+        "run_id": "P1-T-D1-010",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 108,
+        "phase": "formal",
+        "run_id": "P1-T-C-001",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 109,
+        "phase": "formal",
+        "run_id": "P1-T-A-009",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 110,
+        "phase": "formal",
+        "run_id": "P1-D1-004",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 111,
+        "phase": "formal",
+        "run_id": "P1-T-A-010",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 112,
+        "phase": "formal",
+        "run_id": "P1-T-C-009",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 113,
+        "phase": "formal",
+        "run_id": "P1-A-009",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 114,
+        "phase": "formal",
+        "run_id": "P1-A-006",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 115,
+        "phase": "formal",
+        "run_id": "P1-D1-019",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 116,
+        "phase": "formal",
+        "run_id": "P1-B-011",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 117,
+        "phase": "formal",
+        "run_id": "P1-D1-005",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 118,
+        "phase": "formal",
+        "run_id": "P1-D2-001",
+        "group": "D2",
+        "turns": 1
+      },
+      {
+        "order": 119,
+        "phase": "formal",
+        "run_id": "P1-B-019",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 120,
+        "phase": "formal",
+        "run_id": "P1-T-A-008",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 121,
+        "phase": "formal",
+        "run_id": "P1-C-015",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 122,
+        "phase": "formal",
+        "run_id": "P1-A-018",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 123,
+        "phase": "formal",
+        "run_id": "P1-T-A-001",
+        "group": "T-A",
+        "turns": 2
+      },
+      {
+        "order": 124,
+        "phase": "formal",
+        "run_id": "P1-D1-012",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 125,
+        "phase": "formal",
+        "run_id": "P1-D3-007",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 126,
+        "phase": "formal",
+        "run_id": "P1-B-007",
+        "group": "B",
+        "turns": 1
+      },
+      {
+        "order": 127,
+        "phase": "formal",
+        "run_id": "P1-T-D1-004",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 128,
+        "phase": "formal",
+        "run_id": "P1-A-016",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 129,
+        "phase": "formal",
+        "run_id": "P1-D1-003",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 130,
+        "phase": "formal",
+        "run_id": "P1-T-C-005",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 131,
+        "phase": "formal",
+        "run_id": "P1-T-C-006",
+        "group": "T-C",
+        "turns": 2
+      },
+      {
+        "order": 132,
+        "phase": "formal",
+        "run_id": "P1-A-019",
+        "group": "A",
+        "turns": 2
+      },
+      {
+        "order": 133,
+        "phase": "formal",
+        "run_id": "P1-D3-008",
+        "group": "D3",
+        "turns": 1
+      },
+      {
+        "order": 134,
+        "phase": "formal",
+        "run_id": "P1-D1-009",
+        "group": "D1",
+        "turns": 1
+      },
+      {
+        "order": 135,
+        "phase": "formal",
+        "run_id": "P1-T-B-008",
+        "group": "T-B",
+        "turns": 1
+      },
+      {
+        "order": 136,
+        "phase": "formal",
+        "run_id": "P1-C-005",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 137,
+        "phase": "formal",
+        "run_id": "P1-C-008",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 138,
+        "phase": "formal",
+        "run_id": "P1-T-D1-008",
+        "group": "T-D1",
+        "turns": 1
+      },
+      {
+        "order": 139,
+        "phase": "formal",
+        "run_id": "P1-C-016",
+        "group": "C",
+        "turns": 2
+      },
+      {
+        "order": 140,
+        "phase": "formal",
+        "run_id": "P1-B-014",
+        "group": "B",
+        "turns": 1
+      }
+    ]
+  }
+}

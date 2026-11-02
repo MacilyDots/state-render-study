@@ -1,0 +1,27 @@
+{
+  "model": "gemini-3.1-flash-image",
+  "msg": "生成一张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。",
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 28,
+    "candidatesTokenCount": 1610,
+    "totalTokenCount": 1638,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 28
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "imgCount": 1,
+  "partsTypes": [
+    "image"
+  ]
+}

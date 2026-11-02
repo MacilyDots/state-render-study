@@ -1,0 +1,38 @@
+{
+  "id": "SMOKE-02",
+  "desc": "maxOutputTokens=8192 单独验证",
+  "gen": {
+    "responseModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "maxOutputTokens": 8192
+  },
+  "msg": "生成一张照片：一只橘猫坐在窗台上。",
+  "http_status": 200,
+  "elapsed_ms": 16400,
+  "ok": true,
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 11,
+    "candidatesTokenCount": 1525,
+    "totalTokenCount": 1536,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 11
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "image_count": 1,
+  "text_len": 0,
+  "blocked": null,
+  "candidate_count": 1
+}

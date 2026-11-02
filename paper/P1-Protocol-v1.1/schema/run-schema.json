@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "P1 Run Record",
+  "type": "object",
+  "required": ["run_id", "group", "turn", "model", "message", "timestamp"],
+  "properties": {
+    "run_id": { "type": "string", "pattern": "^P1-[A-Za-z0-9-]+-[0-9]{3}$" },
+    "group": { "enum": ["D1", "D2", "D3", "B", "A", "C", "T-D1", "T-B", "9call"] },
+    "turn": { "type": "integer", "minimum": 1 },
+    "session_id": { "type": "string" },
+    "model": { "type": "string" },
+    "message": { "type": "string" },
+    "images": { "type": "array", "items": { "type": "string" } },
+    "raw_count": { "type": "integer", "minimum": 0 },
+    "decodable_count": { "type": "integer", "minimum": 0 },
+    "unique_count": { "type": "integer", "minimum": 0 },
+    "task_conforming_count": { "type": "integer", "minimum": 0 },
+    "topic_drift": { "type": "boolean" },
+    "text": { "type": "string" },
+    "finish_reason": { "type": ["string", "null"] },
+    "retried": { "type": "integer", "minimum": 0 },
+    "error": { "type": ["string", "null"] },
+    "timestamp": { "type": "string" },
+    "image_sizes": { "type": "array", "items": { "type": "string" } },
+    "response_time_ms": { "type": "integer", "minimum": 0 }
+  }
+}

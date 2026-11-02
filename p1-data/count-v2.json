@@ -1,0 +1,704 @@
+[
+  {
+    "run_id": "P1-T-A-001-t1",
+    "group": "T-A",
+    "chars": 376,
+    "count": 4,
+    "ids": [],
+    "method": "paragraphs"
+  },
+  {
+    "run_id": "P1-T-A-002-t1",
+    "group": "T-A",
+    "chars": 934,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-003-t1",
+    "group": "T-A",
+    "chars": 945,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-004-t1",
+    "group": "T-A",
+    "chars": 1177,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-005-t1",
+    "group": "T-A",
+    "chars": 1221,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-006-t1",
+    "group": "T-A",
+    "chars": 1059,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-007-t1",
+    "group": "T-A",
+    "chars": 949,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-008-t1",
+    "group": "T-A",
+    "chars": 1015,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-009-t1",
+    "group": "T-A",
+    "chars": 899,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-A-010-t1",
+    "group": "T-A",
+    "chars": 808,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-001-t1",
+    "group": "T-B",
+    "chars": 1488,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-002-t1",
+    "group": "T-B",
+    "chars": 1792,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-003-t1",
+    "group": "T-B",
+    "chars": 1179,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-004-t1",
+    "group": "T-B",
+    "chars": 1699,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-005-t1",
+    "group": "T-B",
+    "chars": 2282,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-006-t1",
+    "group": "T-B",
+    "chars": 1712,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-007-t1",
+    "group": "T-B",
+    "chars": 1614,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-008-t1",
+    "group": "T-B",
+    "chars": 1743,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-009-t1",
+    "group": "T-B",
+    "chars": 2137,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-B-010-t1",
+    "group": "T-B",
+    "chars": 1392,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-001-t1",
+    "group": "T-C",
+    "chars": 994,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-002-t1",
+    "group": "T-C",
+    "chars": 753,
+    "count": 5,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-003-t1",
+    "group": "T-C",
+    "chars": 623,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-004-t1",
+    "group": "T-C",
+    "chars": 1060,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-005-t1",
+    "group": "T-C",
+    "chars": 855,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-006-t1",
+    "group": "T-C",
+    "chars": 1180,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-007-t1",
+    "group": "T-C",
+    "chars": 689,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-008-t1",
+    "group": "T-C",
+    "chars": 1259,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-009-t1",
+    "group": "T-C",
+    "chars": 703,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-C-010-t1",
+    "group": "T-C",
+    "chars": 960,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-001-t1",
+    "group": "T-D1",
+    "chars": 852,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-002-t1",
+    "group": "T-D1",
+    "chars": 1189,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-003-t1",
+    "group": "T-D1",
+    "chars": 1504,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-004-t1",
+    "group": "T-D1",
+    "chars": 894,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-005-t1",
+    "group": "T-D1",
+    "chars": 977,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-006-t1",
+    "group": "T-D1",
+    "chars": 1016,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-007-t1",
+    "group": "T-D1",
+    "chars": 925,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-008-t1",
+    "group": "T-D1",
+    "chars": 866,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-009-t1",
+    "group": "T-D1",
+    "chars": 681,
+    "count": 5,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "method": "ids"
+  },
+  {
+    "run_id": "P1-T-D1-010-t1",
+    "group": "T-D1",
+    "chars": 1031,
+    "count": 9,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "method": "ids"
+  }
+]

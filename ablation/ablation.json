@@ -1,0 +1,146 @@
+[
+  {
+    "cid": "M0_full",
+    "rep": 1,
+    "images": 0,
+    "reportified": true,
+    "claim": true,
+    "textChars": 3187
+  },
+  {
+    "cid": "M0_full",
+    "rep": 2,
+    "images": 0,
+    "reportified": true,
+    "claim": true,
+    "textChars": 3379
+  },
+  {
+    "cid": "M0_full",
+    "rep": 3,
+    "images": 1,
+    "reportified": false,
+    "claim": false,
+    "textChars": 0
+  },
+  {
+    "cid": "M1_noF1_experiment",
+    "rep": 1,
+    "images": 0,
+    "reportified": true,
+    "claim": false,
+    "textChars": 2016
+  },
+  {
+    "cid": "M1_noF1_experiment",
+    "rep": 2,
+    "images": 0,
+    "reportified": false,
+    "claim": false,
+    "textChars": 1628
+  },
+  {
+    "cid": "M1_noF1_experiment",
+    "rep": 3,
+    "images": 7,
+    "reportified": false,
+    "claim": true,
+    "textChars": 3370
+  },
+  {
+    "cid": "M2_noF2_variable",
+    "rep": 1,
+    "images": 0,
+    "reportified": true,
+    "claim": false,
+    "textChars": 2022
+  },
+  {
+    "cid": "M2_noF2_variable",
+    "rep": 2,
+    "images": 7,
+    "reportified": true,
+    "claim": false,
+    "textChars": 1177
+  },
+  {
+    "cid": "M2_noF2_variable",
+    "rep": 3,
+    "images": 0,
+    "reportified": true,
+    "claim": false,
+    "textChars": 5012
+  },
+  {
+    "cid": "M3_noF3_quantity",
+    "rep": 1,
+    "images": 3,
+    "reportified": true,
+    "claim": false,
+    "textChars": 3650
+  },
+  {
+    "cid": "M3_noF3_quantity",
+    "rep": 2,
+    "images": 3,
+    "reportified": true,
+    "claim": true,
+    "textChars": 2712
+  },
+  {
+    "cid": "M3_noF3_quantity",
+    "rep": 3,
+    "images": 3,
+    "reportified": true,
+    "claim": true,
+    "textChars": 5153
+  },
+  {
+    "cid": "M4_noF4_score",
+    "rep": 1,
+    "images": 0,
+    "reportified": false,
+    "claim": true,
+    "textChars": 7599
+  },
+  {
+    "cid": "M4_noF4_score",
+    "rep": 2,
+    "images": 0,
+    "reportified": false,
+    "claim": true,
+    "textChars": 1209
+  },
+  {
+    "cid": "M4_noF4_score",
+    "rep": 3,
+    "images": 3,
+    "reportified": true,
+    "claim": true,
+    "textChars": 3688
+  },
+  {
+    "cid": "M5_noF5_compare",
+    "rep": 1,
+    "images": 1,
+    "reportified": false,
+    "claim": false,
+    "textChars": 0
+  },
+  {
+    "cid": "M5_noF5_compare",
+    "rep": 2,
+    "images": 7,
+    "reportified": true,
+    "claim": false,
+    "textChars": 3044
+  },
+  {
+    "cid": "M5_noF5_compare",
+    "rep": 3,
+    "images": 7,
+    "reportified": true,
+    "claim": false,
+    "textChars": 2656
+  }
+]

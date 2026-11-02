@@ -1,0 +1,141 @@
+[
+  {
+    "id": "2609.20812v3",
+    "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+    "published": "2026-09-17T17:59:04Z",
+    "authors": [
+      "Nolan Smyth",
+      "Yorguin-Jose Mantilla-Ramos",
+      "Pascal Jr Tikeng Notsawo",
+      "Saskia Helbling",
+      "Alberto Tosato",
+      "Mohamed Amine Merzouk",
+      "Nouha Dziri",
+      "Gauthier Gidel",
+      "Tommaso Tosato"
+    ],
+    "cats": [
+      "cs.SE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods of time, yet what they actually di"
+  },
+  {
+    "id": "2606.09863v1",
+    "title": "From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents",
+    "published": "2026-06-01T00:13:23Z",
+    "authors": [
+      "Laksh Advani"
+    ],
+    "cats": [
+      "cs.LG"
+    ],
+    "summary": "LLM agents can fail silently by asserting task completion when the environment state shows otherwise. We study this fail"
+  },
+  {
+    "id": "2610.19679v1",
+    "title": "MCAIR: Monitoring and Correcting Agent Unfaithfulness via Internal Representations",
+    "published": "2026-10-14T07:00:02Z",
+    "authors": [
+      "Yan Xu",
+      "Dandan Song",
+      "Luan Zhang",
+      "Jun Yang",
+      "Ke Duan",
+      "Yuhang Tian",
+      "Yading Li",
+      "Xudong Li",
+      "Xing Pei",
+      "Guangyuan Feng",
+      "Chenhao Li"
+    ],
+    "cats": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in completing complex tasks through mu"
+  },
+  {
+    "id": "2609.35732v1",
+    "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+    "published": "2026-09-28T17:51:41Z",
+    "authors": [
+      "Junru Zhu",
+      "Shiming Xie",
+      "Aime Lu Fan Chen",
+      "Xiaoqing Ding",
+      "Chunxin Tang",
+      "Ruoyu Qi",
+      "Yulang Fei"
+    ],
+    "cats": [
+      "cs.AI"
+    ],
+    "summary": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence n"
+  },
+  {
+    "id": "2609.25686v1",
+    "title": "How Strongly Should Task State Influence an LLM Agent?",
+    "published": "2026-09-22T04:42:44Z",
+    "authors": [
+      "Chenyu Zhang",
+      "Wonbin Kweon",
+      "Jiawei Han"
+    ],
+    "cats": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "summary": "Long-horizon assigned work requires an LLM agent to track the state of a task: which steps are done, blocked, cancelled,"
+  },
+  {
+    "id": "2610.20003v2",
+    "title": "What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
+    "published": "2026-10-14T11:20:15Z",
+    "authors": [
+      "Guoyang Xu",
+      "Rui Zhang",
+      "Xiuyu Wu",
+      "Hao Chen"
+    ],
+    "cats": [
+      "cs.AI"
+    ],
+    "summary": "Human supervisors rely on coding agents' reports to assess progress, verify repairs, and decide when to intervene. But a"
+  },
+  {
+    "id": "2610.29609v1",
+    "title": "Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging",
+    "published": "2026-10-21T11:50:17Z",
+    "authors": [
+      "Yunfeng Zhu",
+      "Shengcheng Yu",
+      "Zihan Li",
+      "Zhenyu Chen"
+    ],
+    "cats": [
+      "cs.SE"
+    ],
+    "summary": "In automation pipelines, a GUI agent's confident success report can let downstream stages proceed even when the recorded"
+  },
+  {
+    "id": "2605.08747v4",
+    "title": "Done, But Not Sure: Disentangling World Completion from Self-Termination in Embodied Agents",
+    "published": "2026-05-09T07:24:07Z",
+    "authors": [
+      "Ying Chen",
+      "Lihuang Fang",
+      "Rui Jiang",
+      "Mingxu Wang",
+      "Zhifeng Gu",
+      "Lei Yi",
+      "Jie Chen"
+    ],
+    "cats": [
+      "cs.AI"
+    ],
+    "summary": "Standard embodied evaluations do not independently score whether an agent correctly commits to task completion at episod"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "clean",
+    "rep": 1,
+    "reportified": false,
+    "chars": 81
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "clean",
+    "rep": 2,
+    "reportified": false,
+    "chars": 97
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "qty",
+    "rep": 1,
+    "reportified": false,
+    "chars": 250
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "qty",
+    "rep": 2,
+    "reportified": false,
+    "chars": 277
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "score",
+    "rep": 1,
+    "reportified": true,
+    "chars": 634
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "score",
+    "rep": 2,
+    "reportified": true,
+    "chars": 644
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "abc",
+    "rep": 1,
+    "reportified": true,
+    "chars": 3543
+  },
+  {
+    "tid": "T1_copywriting",
+    "task": "产品文案",
+    "grad": "abc",
+    "rep": 2,
+    "reportified": true,
+    "chars": 2854
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "clean",
+    "rep": 1,
+    "reportified": false,
+    "chars": 543
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "clean",
+    "rep": 2,
+    "reportified": false,
+    "chars": 573
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "qty",
+    "rep": 1,
+    "reportified": false,
+    "chars": 1199
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "qty",
+    "rep": 2,
+    "reportified": false,
+    "chars": 1047
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "score",
+    "rep": 1,
+    "reportified": true,
+    "chars": 1766
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "score",
+    "rep": 2,
+    "reportified": true,
+    "chars": 2573
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "abc",
+    "rep": 1,
+    "reportified": true,
+    "chars": 5369
+  },
+  {
+    "tid": "T2_code",
+    "task": "代码生成",
+    "grad": "abc",
+    "rep": 2,
+    "reportified": true,
+    "chars": 4508
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "clean",
+    "rep": 1,
+    "reportified": true,
+    "chars": 573
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "clean",
+    "rep": 2,
+    "reportified": true,
+    "chars": 557
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "qty",
+    "rep": 1,
+    "reportified": false,
+    "chars": 1155
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "qty",
+    "rep": 2,
+    "reportified": false,
+    "chars": 1174
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "score",
+    "rep": 1,
+    "reportified": true,
+    "chars": 1657
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "score",
+    "rep": 2,
+    "reportified": true,
+    "chars": 1741
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "abc",
+    "rep": 1,
+    "reportified": true,
+    "chars": 2204
+  },
+  {
+    "tid": "T3_analysis",
+    "task": "数据分析",
+    "grad": "abc",
+    "rep": 2,
+    "reportified": true,
+    "chars": 2789
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "clean",
+    "rep": 1,
+    "reportified": false,
+    "chars": 102
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "clean",
+    "rep": 2,
+    "reportified": false,
+    "chars": 54
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "qty",
+    "rep": 1,
+    "reportified": false,
+    "chars": 323
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "qty",
+    "rep": 2,
+    "reportified": false,
+    "chars": 249
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "score",
+    "rep": 1,
+    "reportified": true,
+    "chars": 1025
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "score",
+    "rep": 2,
+    "reportified": true,
+    "chars": 591
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "abc",
+    "rep": 1,
+    "reportified": true,
+    "chars": 1970
+  },
+  {
+    "tid": "T4_translation",
+    "task": "翻译",
+    "grad": "abc",
+    "rep": 2,
+    "reportified": true,
+    "chars": 1763
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "clean",
+    "rep": 1,
+    "reportified": false,
+    "chars": 51
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "clean",
+    "rep": 2,
+    "reportified": false,
+    "chars": 52
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "qty",
+    "rep": 1,
+    "reportified": false,
+    "chars": 429
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "qty",
+    "rep": 2,
+    "reportified": false,
+    "chars": 363
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "score",
+    "rep": 1,
+    "reportified": true,
+    "chars": 765
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "score",
+    "rep": 2,
+    "reportified": true,
+    "chars": 684
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "abc",
+    "rep": 1,
+    "reportified": true,
+    "chars": 439
+  },
+  {
+    "tid": "T5_summary",
+    "task": "摘要",
+    "grad": "abc",
+    "rep": 2,
+    "reportified": true,
+    "chars": 3376
+  }
+]

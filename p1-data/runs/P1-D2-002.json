@@ -1,0 +1,44 @@
+{
+  "exp": "P1-image-pilot",
+  "model": "gemini-3.1-flash-image",
+  "mode": "image",
+  "id": "D2",
+  "run_id": "P1-D2-002",
+  "msg": "生成三张照片：一位约22岁的东亚女性坐在卧室床沿看书，自然窗光，真实摄影质感。每张一个不同场景。",
+  "requested": 3,
+  "raw_count": 1,
+  "decodable_count": 1,
+  "unique_count": 1,
+  "task_conforming_count": null,
+  "images": [
+    "X:/work/state-render-study/p1-data/images/P1-D2-002/P1-D2-002_1.jpg"
+  ],
+  "image_sizes": [
+    "869684B"
+  ],
+  "text": "这就为您生成这三张照片。\n\n**场景一：清晨。** 自然光从窗外柔和地照在她的脸上。她穿着一件米色针织衫，正低头看着手中的书，神情专注。\n\n",
+  "finish": "STOP",
+  "usage": {
+    "promptTokenCount": 35,
+    "candidatesTokenCount": 1980,
+    "totalTokenCount": 2015,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "retried": 0,
+  "error": null,
+  "blocked": null,
+  "response_time_ms": 12148,
+  "timestamp": "2026-11-01T18:29:50.024Z"
+}
