@@ -9,6 +9,10 @@
 
 > 停止原因：相邻工作（OverclaimBench、FTA、Self-Report Leakage）已覆盖核心思想；图像主对照因交付地板未实施；三维框架相对已有分类的增量未完成系统文献对照。**不投会议，作为技术报告保存。**
 
+**隐私说明**：UI 截图与一份个人生图对话未包含在本次发布中。所有上传图片均为模型生成结果或 matplotlib 图表，不含桌面截图或会话内容。
+
+**Privacy note**: UI screenshots and a personal image-generation dialogue were excluded from this release. All uploaded images are model-generated outputs or matplotlib figures; none contain desktop captures or personal session content.
+
 ---
 
 ## 一、研究问题
