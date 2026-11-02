@@ -1,0 +1,32 @@
+{
+  "title": "Reportification, Artifact Underdelivery, and Execution Claims under Meta-Task Instructions: A Black-Box Study of Multimodal LLMs",
+  "description": "Exploratory technical report. We separate model behavior into three independent dimensions — artifact delivery, report-artifact relation, and execution-claim veracity — and annotate 35 samples black-box. In these 35 samples: under-delivery 42.9%, report substitution 20.0%, false completion claims 17.1%, concretized descriptions of unexecuted work 17.1%.<br><br>The preregistered image primary analysis was not executed due to a delivery floor effect; the exploratory text control found no reduction in delivery (+0.4, p=1.00), and the sample is insufficient to establish equivalence.<br><br>This report does not claim a new failure mechanism, nor a demonstrable increment over existing taxonomies. It provides a reproducible annotation framework, traceable cases, and hypotheses for further testing. Known limits: image content annotation not performed; no systematic literature review.",
+  "creators": [
+    {
+      "name": "Lei, Macily",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0004-1026-6280"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "LLM agents",
+    "artifact underdelivery",
+    "false completion claims",
+    "reportification",
+    "multimodal generation",
+    "annotation framework",
+    "negative result"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MacilyDots/state-render-study",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
